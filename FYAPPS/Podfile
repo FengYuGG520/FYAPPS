@@ -1,0 +1,12 @@
+
+target 'FYAPPS' do
+
+  use_frameworks!
+
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'Alamofire'
+pod 'ObjectMapper'
+pod 'Kingfisher'
+
+end
