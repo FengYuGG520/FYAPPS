@@ -30,6 +30,7 @@ class FYRefreshTable: UITableView {
         let h = MJRefreshGifHeader.init {
             self.pageNum = 1
             header(self.pageNum)
+            self.mj_header.endRefreshing()
         }
         h?.lastUpdatedTimeLabel.isHidden = true
         h?.stateLabel.textColor = refreshColor
@@ -37,8 +38,9 @@ class FYRefreshTable: UITableView {
         let f = MJRefreshAutoGifFooter.init(refreshingBlock: {
             self.pageNum += 1
             footer(self.pageNum)
+            self.mj_footer.endRefreshing()
         })
-        f?.isHidden = true
+        f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
         self.mj_footer = f
@@ -49,6 +51,7 @@ class FYRefreshTable: UITableView {
         let h = MJRefreshGifHeader.init {
             self.pageNum = 1
             header(self.pageNum)
+            self.mj_header.endRefreshing()
         }
         h?.lastUpdatedTimeLabel.isHidden = true
         h?.stateLabel.textColor = refreshColor
@@ -57,12 +60,12 @@ class FYRefreshTable: UITableView {
         let f = MJRefreshAutoGifFooter.init(refreshingBlock: {
             self.pageNum += 1
             footer(self.pageNum)
+            self.mj_footer.endRefreshing()
         })
-        f?.isHidden = true
+        f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
         self.mj_footer = f
-        
     }
     
     func setGifRefresh(header: @escaping refreshBlock, footer: @escaping refreshBlock) {
@@ -70,6 +73,7 @@ class FYRefreshTable: UITableView {
         let h = MJRefreshGifHeader.init {
             self.pageNum = 1
             header(self.pageNum)
+            self.mj_header.endRefreshing()
         }
         h?.lastUpdatedTimeLabel.isHidden = true
         h?.setImages(idleImages, for: .idle)
@@ -83,17 +87,12 @@ class FYRefreshTable: UITableView {
         let f = MJRefreshAutoGifFooter.init(refreshingBlock: {
             self.pageNum += 1
             footer(self.pageNum)
+            self.mj_footer.endRefreshing()
         })
-        f?.isHidden = true
+        f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
         self.mj_footer = f
-        
-    }
-    
-    func endRefresh() {
-        self.mj_header.endRefreshing()
-        self.mj_footer.endRefreshing()
     }
     
 }

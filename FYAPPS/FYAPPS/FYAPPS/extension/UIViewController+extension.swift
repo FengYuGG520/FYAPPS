@@ -54,4 +54,9 @@ extension UIViewController {
         self.view.isMultipleTouchEnabled = true// 接收多个手指触摸事件 (默认只接收一个点击事件)
     }
     
+    // 隐藏控制器上面的导航条, 记得要在这个控制器 viewWillDisappear (即将消失的时候), 再把导航条显示出来
+    func fy_navCut() {
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
 }

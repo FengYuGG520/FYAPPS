@@ -15,7 +15,14 @@ extension UIImageView {
     
     func fy_setImage(_ urlString: String, _ placeholder: String? = nil) {
         
-        self.kf.setImage(with: URL(string: urlString), placeholder: placeholder as? Placeholder)
+        let url = URL(string: urlString)
+        if placeholder != nil {
+            self.kf.setImage(with: url, placeholder: UIImage(named: placeholder!))
+        }
+        else {
+            self.kf.setImage(with: url)
+        }
+        
         self.contentMode = .scaleAspectFit
     }
     
