@@ -8,5 +8,6 @@ pod 'MBProgressHUD'
 pod 'Alamofire'
 pod 'ObjectMapper'
 pod 'Kingfisher'
+pod 'SDWebImage'
 
 end

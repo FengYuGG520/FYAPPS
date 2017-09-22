@@ -14,5 +14,8 @@
 #import "NSString+hash.h"
 #import "FYFPS.h"
 #import "UIAlertController+FYAlertController.h"
+#import "DistanceStarView.h"
+#import "FYSize.h"
+#import "SDCycleScrollView.h"
 
 #endif

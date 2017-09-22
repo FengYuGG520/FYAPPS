@@ -20,32 +20,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-Jy-qaB">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SDI-vn-azc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewLayout key="collectionViewLayout" id="5qh-To-JOi" customClass="FYCollectionViewFlowLayout" customModule="FYAPPS" customModuleProvider="target"/>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ld3-PO-qq4">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="2dO-Jy-qaB" secondAttribute="bottom" id="Drj-R0-PMt"/>
-                            <constraint firstItem="2dO-Jy-qaB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="P2M-oo-r1g"/>
-                            <constraint firstItem="2dO-Jy-qaB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fAl-iG-KJK"/>
-                            <constraint firstAttribute="trailing" secondItem="2dO-Jy-qaB" secondAttribute="trailing" id="lOs-fq-NxN"/>
+                            <constraint firstItem="SDI-vn-azc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FvC-Th-uh3"/>
+                            <constraint firstItem="SDI-vn-azc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Msu-NW-YTW"/>
+                            <constraint firstAttribute="trailing" secondItem="SDI-vn-azc" secondAttribute="trailing" id="NJV-5L-7A8"/>
+                            <constraint firstAttribute="bottom" secondItem="SDI-vn-azc" secondAttribute="bottom" id="tJf-SI-WTx"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="2dO-Jy-qaB" id="AEV-UY-CHd"/>
+                        <outlet property="tableView" destination="SDI-vn-azc" id="u1B-iD-7q1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

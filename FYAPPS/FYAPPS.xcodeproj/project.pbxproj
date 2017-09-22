@@ -34,10 +34,9 @@
 		144D88CE1F6C381200313DBC /* FYGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D88CD1F6C381200313DBC /* FYGCD.m */; };
 		144D88D11F6C3B8300313DBC /* UIViewController+FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D88D01F6C3B8300313DBC /* UIViewController+FYViewController.m */; };
 		162944CDAA26616C029A0300 /* Pods_FYAPPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */; };
+		1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B74B1F7329130072E674 /* FYTextBtnCell.swift */; };
 		1B80AF571F6C47D0007526D5 /* UIResponder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF561F6C47D0007526D5 /* UIResponder+extension.swift */; };
 		1B80AF5A1F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */; };
-		1B80AF641F6CBC4B007526D5 /* FYCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF631F6CBC4B007526D5 /* FYCollectionViewCell.swift */; };
-		1B80AF661F6CBC7A007526D5 /* FYCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B80AF651F6CBC7A007526D5 /* FYCollectionViewCell.xib */; };
 		1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF711F6CCEC2007526D5 /* UICollectionView+extension.swift */; };
 		1B80AF751F6CD45F007526D5 /* NSString+hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF741F6CD45F007526D5 /* NSString+hash.m */; };
 		1B80AF7B1F6CD4D9007526D5 /* FYFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF781F6CD4D9007526D5 /* FYFPS.m */; };
@@ -51,6 +50,16 @@
 		1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */; };
 		1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */; };
 		1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */; };
+		1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD071F74A329001B5E64 /* DistanceStarView.m */; };
+		1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0A1F74A37A001B5E64 /* FYSize.m */; };
+		1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */; };
+		1BE5AD1F1F74A3E9001B5E64 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD121F74A3E9001B5E64 /* TAAbstractDotView.m */; };
+		1BE5AD201F74A3E9001B5E64 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD141F74A3E9001B5E64 /* TAAnimatedDotView.m */; };
+		1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD161F74A3E9001B5E64 /* TADotView.m */; };
+		1BE5AD221F74A3E9001B5E64 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD181F74A3E9001B5E64 /* TAPageControl.m */; };
+		1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1A1F74A3E9001B5E64 /* SDCollectionViewCell.m */; };
+		1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1C1F74A3E9001B5E64 /* SDCycleScrollView.m */; };
+		1BE5AD251F74A3E9001B5E64 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1E1F74A3E9001B5E64 /* UIView+SDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,10 +94,9 @@
 		144D88CD1F6C381200313DBC /* FYGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYGCD.m; sourceTree = "<group>"; };
 		144D88CF1F6C3B8300313DBC /* UIViewController+FYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FYViewController.h"; sourceTree = "<group>"; };
 		144D88D01F6C3B8300313DBC /* UIViewController+FYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYViewController.m"; sourceTree = "<group>"; };
+		1B00B74B1F7329130072E674 /* FYTextBtnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYTextBtnCell.swift; sourceTree = "<group>"; };
 		1B80AF561F6C47D0007526D5 /* UIResponder+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+extension.swift"; sourceTree = "<group>"; };
 		1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
-		1B80AF631F6CBC4B007526D5 /* FYCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCollectionViewCell.swift; sourceTree = "<group>"; };
-		1B80AF651F6CBC7A007526D5 /* FYCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYCollectionViewCell.xib; sourceTree = "<group>"; };
 		1B80AF711F6CCEC2007526D5 /* UICollectionView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
 		1B80AF731F6CD45F007526D5 /* NSString+hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hash.h"; sourceTree = "<group>"; };
 		1B80AF741F6CD45F007526D5 /* NSString+hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hash.m"; sourceTree = "<group>"; };
@@ -106,6 +114,26 @@
 		1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
+		1BE5AD061F74A329001B5E64 /* DistanceStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceStarView.h; sourceTree = "<group>"; };
+		1BE5AD071F74A329001B5E64 /* DistanceStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceStarView.m; sourceTree = "<group>"; };
+		1BE5AD091F74A37A001B5E64 /* FYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSize.h; sourceTree = "<group>"; };
+		1BE5AD0A1F74A37A001B5E64 /* FYSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSize.m; sourceTree = "<group>"; };
+		1BE5AD0C1F74A3B7001B5E64 /* EwenCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EwenCopyLabel.h; sourceTree = "<group>"; };
+		1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EwenCopyLabel.m; sourceTree = "<group>"; };
+		1BE5AD111F74A3E9001B5E64 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		1BE5AD121F74A3E9001B5E64 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		1BE5AD131F74A3E9001B5E64 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		1BE5AD141F74A3E9001B5E64 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		1BE5AD151F74A3E9001B5E64 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		1BE5AD161F74A3E9001B5E64 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		1BE5AD171F74A3E9001B5E64 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		1BE5AD181F74A3E9001B5E64 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		1BE5AD191F74A3E9001B5E64 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		1BE5AD1A1F74A3E9001B5E64 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		1BE5AD1B1F74A3E9001B5E64 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		1BE5AD1C1F74A3E9001B5E64 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		1BE5AD1D1F74A3E9001B5E64 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		1BE5AD1E1F74A3E9001B5E64 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.debug.xcconfig"; sourceTree = "<group>"; };
 		85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAPPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,8 +183,6 @@
 				144D887C1F6BF19700313DBC /* FYAPPS */,
 				144D88671F6BE3E300313DBC /* AppDelegate.swift */,
 				144D88691F6BE3E300313DBC /* ViewController.swift */,
-				1B80AF631F6CBC4B007526D5 /* FYCollectionViewCell.swift */,
-				1B80AF651F6CBC7A007526D5 /* FYCollectionViewCell.xib */,
 				144D886B1F6BE3E300313DBC /* Main.storyboard */,
 				144D88711F6BE3E400313DBC /* Assets.xcassets */,
 				144D88731F6BE3E400313DBC /* LaunchScreen.storyboard */,
@@ -201,6 +227,13 @@
 				1B80AF881F6CE5FF007526D5 /* UIAlertController+FYAlertController.m */,
 				1B80AF731F6CD45F007526D5 /* NSString+hash.h */,
 				1B80AF741F6CD45F007526D5 /* NSString+hash.m */,
+				1BE5AD061F74A329001B5E64 /* DistanceStarView.h */,
+				1BE5AD071F74A329001B5E64 /* DistanceStarView.m */,
+				1BE5AD091F74A37A001B5E64 /* FYSize.h */,
+				1BE5AD0A1F74A37A001B5E64 /* FYSize.m */,
+				1BE5AD0C1F74A3B7001B5E64 /* EwenCopyLabel.h */,
+				1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */,
+				1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -220,6 +253,7 @@
 				144D88861F6BF6FB00313DBC /* FYLen.swift */,
 				144D88AB1F6C31AC00313DBC /* FYDevice.swift */,
 				144D88CA1F6C338E00313DBC /* FYUserDefault.swift */,
+				1B00B74B1F7329130072E674 /* FYTextBtnCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -269,6 +303,35 @@
 				1B80AF7A1F6CD4D9007526D5 /* UIWindow+FPS.m */,
 			);
 			path = FYFPS;
+			sourceTree = "<group>";
+		};
+		1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1BE5AD101F74A3E9001B5E64 /* PageControl */,
+				1BE5AD191F74A3E9001B5E64 /* SDCollectionViewCell.h */,
+				1BE5AD1A1F74A3E9001B5E64 /* SDCollectionViewCell.m */,
+				1BE5AD1B1F74A3E9001B5E64 /* SDCycleScrollView.h */,
+				1BE5AD1C1F74A3E9001B5E64 /* SDCycleScrollView.m */,
+				1BE5AD1D1F74A3E9001B5E64 /* UIView+SDExtension.h */,
+				1BE5AD1E1F74A3E9001B5E64 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		1BE5AD101F74A3E9001B5E64 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				1BE5AD111F74A3E9001B5E64 /* TAAbstractDotView.h */,
+				1BE5AD121F74A3E9001B5E64 /* TAAbstractDotView.m */,
+				1BE5AD131F74A3E9001B5E64 /* TAAnimatedDotView.h */,
+				1BE5AD141F74A3E9001B5E64 /* TAAnimatedDotView.m */,
+				1BE5AD151F74A3E9001B5E64 /* TADotView.h */,
+				1BE5AD161F74A3E9001B5E64 /* TADotView.m */,
+				1BE5AD171F74A3E9001B5E64 /* TAPageControl.h */,
+				1BE5AD181F74A3E9001B5E64 /* TAPageControl.m */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 		61D402C65F76D8EE470147D9 /* Pods */ = {
@@ -346,7 +409,6 @@
 				144D88751F6BE3E400313DBC /* LaunchScreen.storyboard in Resources */,
 				144D88721F6BE3E400313DBC /* Assets.xcassets in Resources */,
 				144D886D1F6BE3E400313DBC /* Main.storyboard in Resources */,
-				1B80AF661F6CBC7A007526D5 /* FYCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +460,7 @@
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -406,6 +469,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE5AD251F74A3E9001B5E64 /* UIView+SDExtension.m in Sources */,
 				144D88BB1F6C321800313DBC /* color+extension.swift in Sources */,
 				1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */,
 				144D88BC1F6C321800313DBC /* Date+extension.swift in Sources */,
@@ -426,10 +491,11 @@
 				144D88701F6BE3E400313DBC /* FYAPPS.xcdatamodeld in Sources */,
 				1B80AF571F6C47D0007526D5 /* UIResponder+extension.swift in Sources */,
 				1B80AF821F6CDE2D007526D5 /* String+extension.swift in Sources */,
-				1B80AF641F6CBC4B007526D5 /* FYCollectionViewCell.swift in Sources */,
 				144D88BD1F6C321800313DBC /* Device+extension.swift in Sources */,
 				1B80AF801F6CDB3A007526D5 /* scrollView+extension.swift in Sources */,
 				144D88C01F6C321800313DBC /* UIButton+extension.swift in Sources */,
+				1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */,
+				1BE5AD221F74A3E9001B5E64 /* TAPageControl.m in Sources */,
 				144D88AC1F6C31AC00313DBC /* FYDevice.swift in Sources */,
 				144D88D11F6C3B8300313DBC /* UIViewController+FYViewController.m in Sources */,
 				1B80AF861F6CE501007526D5 /* FYTableViewCell.swift in Sources */,
@@ -438,6 +504,7 @@
 				1B80AF7E1F6CD7F2007526D5 /* navigationController+extension.swift in Sources */,
 				144D88C31F6C321800313DBC /* UIView+extension.swift in Sources */,
 				1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */,
+				1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */,
 				144D88BA1F6C321800313DBC /* CADisplayLink+extension.swift in Sources */,
 				144D88C41F6C321800313DBC /* UIViewController+extension.swift in Sources */,
 				144D88BF1F6C321800313DBC /* Timer+extension.swift in Sources */,
@@ -448,15 +515,22 @@
 				144D88CE1F6C381200313DBC /* FYGCD.m in Sources */,
 				144D886A1F6BE3E300313DBC /* ViewController.swift in Sources */,
 				144D88841F6BF58200313DBC /* Common.swift in Sources */,
+				1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
+				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
+				1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */,
 				144D88A01F6C1A0200313DBC /* UIImageView+extension.swift in Sources */,
+				1BE5AD201F74A3E9001B5E64 /* TAAnimatedDotView.m in Sources */,
 				144D88BE1F6C321800313DBC /* notification+extension.swift in Sources */,
 				144D88681F6BE3E300313DBC /* AppDelegate.swift in Sources */,
+				1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */,
 				144D88C71F6C327A00313DBC /* UILabel+extension.swift in Sources */,
+				1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */,
 				1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */,
 				1B80AF7C1F6CD4D9007526D5 /* UIWindow+FPS.m in Sources */,
 				1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */,
 				1B80AF5A1F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift in Sources */,
+				1BE5AD1F1F74A3E9001B5E64 /* TAAbstractDotView.m in Sources */,
 				144D88CB1F6C338E00313DBC /* FYUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,47 +9,68 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let fYCollectionViewCell = "fYCollectionViewCell"
     
+    var cellHeight: CGFloat = 0.0
+    
+    
+    let fYTableViewCell = "fYTableViewCell"
+    
+    var colorArr: [String] = ["红色", "微红色", "橘黄色", "谈入谈出", "小鸡米色", "紫色", "天蓝"]
+    var colorBool: [Bool] = [false, true, true, false, true, false, true]
+    
+    var sizeArr: [String] = ["X", "XM", "LLM", "LM", "XXX", "SS", "S"]
+    var sizeBool: [Bool] = [false, false, true, false, true, false, false]
+    
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.red
                 
-        self.collectionView.fy_target(self)
-        self.collectionView.fy_collectionRegisterXib("FYCollectionViewCell", "fYCollectionViewCell")
+        tableView.fy_target(self)
+        tableView.fy_cutSeparator()
+        tableView.register(FYTextBtnCell.self, forCellReuseIdentifier: fYTableViewCell)
     }
     
-    @IBOutlet weak var collectionView: UICollectionView!
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        
-    }
-
-
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension ViewController: UITableViewDataSource {
     
     // 返回组
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
+    
     // 返回行
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 30
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
-    // 返回 item
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    
+    // 返回 cell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: fYCollectionViewCell, for: indexPath)
-        cell.backgroundColor = UIColor.fy_colorRandom()
+        let cell = tableView.dequeueReusableCell(withIdentifier: fYTableViewCell, for: indexPath) as! FYTextBtnCell
+        
+        cell.btnNoClickBoolArr = colorBool
+        cell.textArr = colorArr
+        
+        cell.backgroundColor = UIColor.red
+        cellHeight = cell.cellHeight
+        
+        cell.clickBlock = { (text, btn, btnTag) in
+            print("\(text)\(btnTag)")
+        }
         
         return cell
     }
     
 }
 
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return cellHeight
+    }
+    
+}
