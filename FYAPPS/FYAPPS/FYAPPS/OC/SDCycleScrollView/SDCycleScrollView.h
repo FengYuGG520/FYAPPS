@@ -34,6 +34,7 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "SDCollectionViewCell.h"
 
 typedef enum {
     SDCycleScrollViewPageContolAlimentRight,
@@ -76,6 +77,9 @@ typedef enum {
 @end
 
 @interface SDCycleScrollView : UIView
+
+@property (nonatomic, weak) UICollectionView *mainView; // 显示图片的collectionView
+@property (nonatomic, weak) NSTimer *timer;
 
 
 /** 初始轮播图（推荐使用） */

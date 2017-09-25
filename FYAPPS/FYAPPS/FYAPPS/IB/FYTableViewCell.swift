@@ -1,5 +1,6 @@
 import UIKit
-
+// 使用方式
+// 用个类继承 FYTableViewCell, 重写 awakeFromNib 和 setupUI
 class FYTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {

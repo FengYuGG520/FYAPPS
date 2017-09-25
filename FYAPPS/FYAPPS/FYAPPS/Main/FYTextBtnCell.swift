@@ -3,7 +3,7 @@
 // 记录高度
 // 注意: 如果要设置 属性或者 btnNoClickBoolArr, 请先设置 属性和 btnNoClickBoolArr
 // 然后才能设置 textArr
-// 最后拿到 cellHeight 记得记录
+// 最后拿到 cellHeight 记得记录 (这个行高不需要适配)
 
 import UIKit
 

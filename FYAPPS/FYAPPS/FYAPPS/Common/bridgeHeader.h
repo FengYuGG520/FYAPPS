@@ -17,5 +17,6 @@
 #import "DistanceStarView.h"
 #import "FYSize.h"
 #import "SDCycleScrollView.h"
+#import "XLImageViewer.h"
 
 #endif

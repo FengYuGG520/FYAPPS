@@ -2,6 +2,17 @@ import UIKit
 
 extension UIView {
     
+    /// IB中添加 view 的圆角属性
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+    
     func fy_radius(_ radius: CGFloat) {
         // 调用视图的 layer 的 maskaToBounds 把超过图层的部分去掉
         self.layer.masksToBounds = true

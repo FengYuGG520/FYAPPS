@@ -60,6 +60,10 @@
 		1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1A1F74A3E9001B5E64 /* SDCollectionViewCell.m */; };
 		1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1C1F74A3E9001B5E64 /* SDCycleScrollView.m */; };
 		1BE5AD251F74A3E9001B5E64 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD1E1F74A3E9001B5E64 /* UIView+SDExtension.m */; };
+		1BF347341F762DD300475472 /* XLImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3472D1F762DD300475472 /* XLImageLoading.m */; };
+		1BF347351F762DD300475472 /* XLImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3472F1F762DD300475472 /* XLImageViewer.m */; };
+		1BF347361F762DD300475472 /* XLImageViewerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347311F762DD300475472 /* XLImageViewerItem.m */; };
+		1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347331F762DD300475472 /* XLImageViewerTooBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +138,14 @@
 		1BE5AD1C1F74A3E9001B5E64 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		1BE5AD1D1F74A3E9001B5E64 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		1BE5AD1E1F74A3E9001B5E64 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		1BF3472C1F762DD300475472 /* XLImageLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageLoading.h; sourceTree = "<group>"; };
+		1BF3472D1F762DD300475472 /* XLImageLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageLoading.m; sourceTree = "<group>"; };
+		1BF3472E1F762DD300475472 /* XLImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageViewer.h; sourceTree = "<group>"; };
+		1BF3472F1F762DD300475472 /* XLImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewer.m; sourceTree = "<group>"; };
+		1BF347301F762DD300475472 /* XLImageViewerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageViewerItem.h; sourceTree = "<group>"; };
+		1BF347311F762DD300475472 /* XLImageViewerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerItem.m; sourceTree = "<group>"; };
+		1BF347321F762DD300475472 /* XLImageViewerTooBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageViewerTooBar.h; sourceTree = "<group>"; };
+		1BF347331F762DD300475472 /* XLImageViewerTooBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerTooBar.m; sourceTree = "<group>"; };
 		628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.debug.xcconfig"; sourceTree = "<group>"; };
 		85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAPPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.release.xcconfig"; sourceTree = "<group>"; };
@@ -233,6 +245,7 @@
 				1BE5AD0A1F74A37A001B5E64 /* FYSize.m */,
 				1BE5AD0C1F74A3B7001B5E64 /* EwenCopyLabel.h */,
 				1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */,
+				1BF3472B1F762DD300475472 /* XLImageViewer */,
 				1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */,
 			);
 			path = OC;
@@ -332,6 +345,21 @@
 				1BE5AD181F74A3E9001B5E64 /* TAPageControl.m */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		1BF3472B1F762DD300475472 /* XLImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3472C1F762DD300475472 /* XLImageLoading.h */,
+				1BF3472D1F762DD300475472 /* XLImageLoading.m */,
+				1BF3472E1F762DD300475472 /* XLImageViewer.h */,
+				1BF3472F1F762DD300475472 /* XLImageViewer.m */,
+				1BF347301F762DD300475472 /* XLImageViewerItem.h */,
+				1BF347311F762DD300475472 /* XLImageViewerItem.m */,
+				1BF347321F762DD300475472 /* XLImageViewerTooBar.h */,
+				1BF347331F762DD300475472 /* XLImageViewerTooBar.m */,
+			);
+			path = XLImageViewer;
 			sourceTree = "<group>";
 		};
 		61D402C65F76D8EE470147D9 /* Pods */ = {
@@ -501,8 +529,11 @@
 				1B80AF861F6CE501007526D5 /* FYTableViewCell.swift in Sources */,
 				144D88891F6BF7A500313DBC /* FYNetwork.swift in Sources */,
 				144D88C21F6C321800313DBC /* UITableView+extension.swift in Sources */,
+				1BF347361F762DD300475472 /* XLImageViewerItem.m in Sources */,
 				1B80AF7E1F6CD7F2007526D5 /* navigationController+extension.swift in Sources */,
+				1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */,
 				144D88C31F6C321800313DBC /* UIView+extension.swift in Sources */,
+				1BF347341F762DD300475472 /* XLImageLoading.m in Sources */,
 				1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */,
 				1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */,
 				144D88BA1F6C321800313DBC /* CADisplayLink+extension.swift in Sources */,
@@ -524,6 +555,7 @@
 				144D88BE1F6C321800313DBC /* notification+extension.swift in Sources */,
 				144D88681F6BE3E300313DBC /* AppDelegate.swift in Sources */,
 				1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */,
+				1BF347351F762DD300475472 /* XLImageViewer.m in Sources */,
 				144D88C71F6C327A00313DBC /* UILabel+extension.swift in Sources */,
 				1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */,
 				1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */,

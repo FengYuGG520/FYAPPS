@@ -1,5 +1,6 @@
 import UIKit
-
+// 使用方式
+// IB 中设置 cellLayout 后, 把下面的代码复制到自定义的 layout 里面再修改
 class FYCollectionViewFlowLayout: UICollectionViewFlowLayout {
     
     override func prepare() {

@@ -14,8 +14,6 @@ extension UICollectionView {
     func fy_cutPrefetch() {
         if #available(iOS 10.0, *) {
             self.isPrefetchingEnabled = false
-        } else {
-            // Fallback on earlier versions
         }
     }
     
