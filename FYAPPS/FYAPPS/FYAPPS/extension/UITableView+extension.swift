@@ -15,4 +15,12 @@ extension UITableView {
         self.separatorStyle = .none
     }
     
+    func fy_reload(row: Int, section: Int, animation: UITableViewRowAnimation) {
+        self.reloadRows(at: [IndexPath.init(row: row, section: section)], with: animation)
+    }
+    
+    func fy_tableScrollTo(row: Int, section: Int) {
+        self.scrollToRow(at: IndexPath.init(row: row, section: section), at: .top, animated: true)
+    }
+    
 }

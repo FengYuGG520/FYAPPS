@@ -14,9 +14,11 @@
 #import "NSString+hash.h"
 #import "FYFPS.h"
 #import "UIAlertController+FYAlertController.h"
-#import "DistanceStarView.h"
+#import "DistanceStarView.h"    // 评分
 #import "FYSize.h"
-#import "SDCycleScrollView.h"
-#import "XLImageViewer.h"
+#import "SDCycleScrollView.h"   // 轮播
+#import "XLImageViewer.h"       // 图片浏览器
+#import "EwenCopyLabel.h"       // 复制的label
+#import "FYScannerController.h" // 生成二维码和二维码扫描器
 
 #endif

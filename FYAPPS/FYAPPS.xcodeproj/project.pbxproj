@@ -50,6 +50,18 @@
 		1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */; };
 		1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */; };
 		1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */; };
+		1BDA17E11F7C826B0053DF6A /* FYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E01F7C826B0053DF6A /* FYViewController.swift */; };
+		1BDA17F01F7C86040053DF6A /* FYScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E41F7C86040053DF6A /* FYScanerCardViewController.m */; };
+		1BDA17F11F7C86040053DF6A /* FYScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA17E51F7C86040053DF6A /* FYScanner.bundle */; };
+		1BDA17F21F7C86040053DF6A /* FYScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E71F7C86040053DF6A /* FYScanner.m */; };
+		1BDA17F31F7C86040053DF6A /* FYScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E91F7C86040053DF6A /* FYScannerBorder.m */; };
+		1BDA17F41F7C86040053DF6A /* FYScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17EB1F7C86040053DF6A /* FYScannerController.m */; };
+		1BDA17F51F7C86040053DF6A /* FYScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17ED1F7C86040053DF6A /* FYScannerMaskView.m */; };
+		1BDA17F61F7C86040053DF6A /* FYScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */; };
+		1BDA17FB1F7C89870053DF6A /* FYShowOKVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */; };
+		1BDA17FC1F7C89870053DF6A /* FYShowOKVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */; };
+		1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */; };
+		1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */; };
 		1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD071F74A329001B5E64 /* DistanceStarView.m */; };
 		1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0A1F74A37A001B5E64 /* FYSize.m */; };
 		1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */; };
@@ -118,6 +130,24 @@
 		1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
+		1BDA17E01F7C826B0053DF6A /* FYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYViewController.swift; sourceTree = "<group>"; };
+		1BDA17E31F7C86040053DF6A /* FYScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScanerCardViewController.h; sourceTree = "<group>"; };
+		1BDA17E41F7C86040053DF6A /* FYScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScanerCardViewController.m; sourceTree = "<group>"; };
+		1BDA17E51F7C86040053DF6A /* FYScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FYScanner.bundle; sourceTree = "<group>"; };
+		1BDA17E61F7C86040053DF6A /* FYScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScanner.h; sourceTree = "<group>"; };
+		1BDA17E71F7C86040053DF6A /* FYScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScanner.m; sourceTree = "<group>"; };
+		1BDA17E81F7C86040053DF6A /* FYScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScannerBorder.h; sourceTree = "<group>"; };
+		1BDA17E91F7C86040053DF6A /* FYScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerBorder.m; sourceTree = "<group>"; };
+		1BDA17EA1F7C86040053DF6A /* FYScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScannerController.h; sourceTree = "<group>"; };
+		1BDA17EB1F7C86040053DF6A /* FYScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerController.m; sourceTree = "<group>"; };
+		1BDA17EC1F7C86040053DF6A /* FYScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScannerMaskView.h; sourceTree = "<group>"; };
+		1BDA17ED1F7C86040053DF6A /* FYScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerMaskView.m; sourceTree = "<group>"; };
+		1BDA17EE1F7C86040053DF6A /* FYScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScannerViewController.h; sourceTree = "<group>"; };
+		1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerViewController.m; sourceTree = "<group>"; };
+		1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC1.swift; sourceTree = "<group>"; };
+		1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC2.swift; sourceTree = "<group>"; };
+		1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYShowSB.storyboard; sourceTree = "<group>"; };
+		1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowSB.swift; sourceTree = "<group>"; };
 		1BE5AD061F74A329001B5E64 /* DistanceStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceStarView.h; sourceTree = "<group>"; };
 		1BE5AD071F74A329001B5E64 /* DistanceStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceStarView.m; sourceTree = "<group>"; };
 		1BE5AD091F74A37A001B5E64 /* FYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSize.h; sourceTree = "<group>"; };
@@ -230,6 +260,7 @@
 		144D887F1F6BF24B00313DBC /* OC */ = {
 			isa = PBXGroup;
 			children = (
+				1BDA17E21F7C86040053DF6A /* QRCode */,
 				1B80AF761F6CD4D9007526D5 /* FYFPS */,
 				144D88CC1F6C381200313DBC /* FYGCD.h */,
 				144D88CD1F6C381200313DBC /* FYGCD.m */,
@@ -303,6 +334,11 @@
 			children = (
 				1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */,
 				1B80AF851F6CE501007526D5 /* FYTableViewCell.swift */,
+				1BDA17E01F7C826B0053DF6A /* FYViewController.swift */,
+				1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */,
+				1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */,
+				1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */,
+				1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */,
 			);
 			path = IB;
 			sourceTree = "<group>";
@@ -316,6 +352,26 @@
 				1B80AF7A1F6CD4D9007526D5 /* UIWindow+FPS.m */,
 			);
 			path = FYFPS;
+			sourceTree = "<group>";
+		};
+		1BDA17E21F7C86040053DF6A /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA17E31F7C86040053DF6A /* FYScanerCardViewController.h */,
+				1BDA17E41F7C86040053DF6A /* FYScanerCardViewController.m */,
+				1BDA17E51F7C86040053DF6A /* FYScanner.bundle */,
+				1BDA17E61F7C86040053DF6A /* FYScanner.h */,
+				1BDA17E71F7C86040053DF6A /* FYScanner.m */,
+				1BDA17E81F7C86040053DF6A /* FYScannerBorder.h */,
+				1BDA17E91F7C86040053DF6A /* FYScannerBorder.m */,
+				1BDA17EA1F7C86040053DF6A /* FYScannerController.h */,
+				1BDA17EB1F7C86040053DF6A /* FYScannerController.m */,
+				1BDA17EC1F7C86040053DF6A /* FYScannerMaskView.h */,
+				1BDA17ED1F7C86040053DF6A /* FYScannerMaskView.m */,
+				1BDA17EE1F7C86040053DF6A /* FYScannerViewController.h */,
+				1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */,
+			);
+			path = QRCode;
 			sourceTree = "<group>";
 		};
 		1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */ = {
@@ -435,7 +491,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				144D88751F6BE3E400313DBC /* LaunchScreen.storyboard in Resources */,
+				1BDA17F11F7C86040053DF6A /* FYScanner.bundle in Resources */,
 				144D88721F6BE3E400313DBC /* Assets.xcassets in Resources */,
+				1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */,
 				144D886D1F6BE3E400313DBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,10 +577,12 @@
 				144D88701F6BE3E400313DBC /* FYAPPS.xcdatamodeld in Sources */,
 				1B80AF571F6C47D0007526D5 /* UIResponder+extension.swift in Sources */,
 				1B80AF821F6CDE2D007526D5 /* String+extension.swift in Sources */,
+				1BDA17F61F7C86040053DF6A /* FYScannerViewController.m in Sources */,
 				144D88BD1F6C321800313DBC /* Device+extension.swift in Sources */,
 				1B80AF801F6CDB3A007526D5 /* scrollView+extension.swift in Sources */,
 				144D88C01F6C321800313DBC /* UIButton+extension.swift in Sources */,
 				1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */,
+				1BDA17F31F7C86040053DF6A /* FYScannerBorder.m in Sources */,
 				1BE5AD221F74A3E9001B5E64 /* TAPageControl.m in Sources */,
 				144D88AC1F6C31AC00313DBC /* FYDevice.swift in Sources */,
 				144D88D11F6C3B8300313DBC /* UIViewController+FYViewController.m in Sources */,
@@ -534,24 +594,31 @@
 				1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */,
 				144D88C31F6C321800313DBC /* UIView+extension.swift in Sources */,
 				1BF347341F762DD300475472 /* XLImageLoading.m in Sources */,
+				1BDA17F21F7C86040053DF6A /* FYScanner.m in Sources */,
 				1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */,
+				1BDA17FC1F7C89870053DF6A /* FYShowOKVC2.swift in Sources */,
 				1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */,
 				144D88BA1F6C321800313DBC /* CADisplayLink+extension.swift in Sources */,
 				144D88C41F6C321800313DBC /* UIViewController+extension.swift in Sources */,
+				1BDA17F01F7C86040053DF6A /* FYScanerCardViewController.m in Sources */,
 				144D88BF1F6C321800313DBC /* Timer+extension.swift in Sources */,
+				1BDA17F51F7C86040053DF6A /* FYScannerMaskView.m in Sources */,
 				144D88871F6BF6FB00313DBC /* FYLen.swift in Sources */,
 				1B80AF7B1F6CD4D9007526D5 /* FYFPS.m in Sources */,
+				1BDA17F41F7C86040053DF6A /* FYScannerController.m in Sources */,
 				1B80AF751F6CD45F007526D5 /* NSString+hash.m in Sources */,
 				1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */,
 				144D88CE1F6C381200313DBC /* FYGCD.m in Sources */,
 				144D886A1F6BE3E300313DBC /* ViewController.swift in Sources */,
 				144D88841F6BF58200313DBC /* Common.swift in Sources */,
+				1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */,
 				1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
 				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
 				1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */,
 				144D88A01F6C1A0200313DBC /* UIImageView+extension.swift in Sources */,
 				1BE5AD201F74A3E9001B5E64 /* TAAnimatedDotView.m in Sources */,
+				1BDA17FB1F7C89870053DF6A /* FYShowOKVC1.swift in Sources */,
 				144D88BE1F6C321800313DBC /* notification+extension.swift in Sources */,
 				144D88681F6BE3E300313DBC /* AppDelegate.swift in Sources */,
 				1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */,
@@ -560,6 +627,7 @@
 				1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */,
 				1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */,
 				1B80AF7C1F6CD4D9007526D5 /* UIWindow+FPS.m in Sources */,
+				1BDA17E11F7C826B0053DF6A /* FYViewController.swift in Sources */,
 				1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */,
 				1B80AF5A1F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift in Sources */,
 				1BE5AD1F1F74A3E9001B5E64 /* TAAbstractDotView.m in Sources */,

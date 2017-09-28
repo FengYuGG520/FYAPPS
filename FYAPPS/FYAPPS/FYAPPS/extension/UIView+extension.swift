@@ -20,11 +20,7 @@ extension UIView {
         self.layer.cornerRadius = radius
     }
     
-    class func fy_viewXib() -> UIView! {
-        return self.fy_viewXibName(NSStringFromClass(self))
-    }
-    
-    private class func fy_viewXibName(_ xibName: String) -> UIView! {
+    class func fy_viewXibName(_ xibName: String) -> UIView! {
         return UINib(nibName: xibName, bundle: nil).instantiate(withOwner: nil, options: nil).first as! UIView
     }
     

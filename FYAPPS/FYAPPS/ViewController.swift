@@ -31,7 +31,12 @@ class ViewController: UIViewController {
         tableView.fy_target(self)
         tableView.fy_cutSeparator()
         tableView.register(FYTextBtnCell.self, forCellReuseIdentifier: fYTableViewCell)
+        
     }
+    
+    @IBOutlet weak var btn: UIButton!
+    
+    
     
 }
 

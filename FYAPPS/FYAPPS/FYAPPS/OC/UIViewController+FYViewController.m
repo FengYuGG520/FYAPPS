@@ -34,6 +34,7 @@
     hud.customView = [[UIImageView alloc] initWithImage:image];
     hud.square = YES;
     hud.label.text = NSLocalizedString(title, @"HUD done title");
+    hud.bezelView.backgroundColor = [UIColor whiteColor];
     
     [hud hideAnimated:YES afterDelay:1.0];
 }

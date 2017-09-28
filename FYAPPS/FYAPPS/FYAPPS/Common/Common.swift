@@ -13,6 +13,9 @@
  * iPhone 6S Plus     1242x2208
  * iPhone 7 Plus      1242x2208
  */
+// ios10 以下的系统，在IB中，给tableViewCell添加子控件会添加到cell里面，
+// 也就是contentView的下面，导致子控件被遮住，无法响应，
+// 解决办法，让 contentView hidden
 
 import UIKit
 
