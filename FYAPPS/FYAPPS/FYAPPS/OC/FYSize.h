@@ -2,8 +2,6 @@
 
 @interface FYSize : NSObject
 
-+ (CGSize)getImageSizeWithURL:(id)imageURL;
-
 /**
  计算单行文本的大小
 

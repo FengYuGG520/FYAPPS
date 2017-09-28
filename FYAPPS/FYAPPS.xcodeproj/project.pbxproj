@@ -62,6 +62,11 @@
 		1BDA17FC1F7C89870053DF6A /* FYShowOKVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */; };
 		1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */; };
 		1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */; };
+		1BDA18071F7C8F2F0053DF6A /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18011F7C8F2F0053DF6A /* backgroundStar.png */; };
+		1BDA18081F7C8F2F0053DF6A /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18021F7C8F2F0053DF6A /* backgroundStar@2x.png */; };
+		1BDA18091F7C8F2F0053DF6A /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18031F7C8F2F0053DF6A /* foregroundStar.png */; };
+		1BDA180A1F7C8F2F0053DF6A /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18041F7C8F2F0053DF6A /* foregroundStar@2x.png */; };
+		1BDA180B1F7C8F2F0053DF6A /* TQStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA18061F7C8F2F0053DF6A /* TQStarRatingView.m */; };
 		1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD071F74A329001B5E64 /* DistanceStarView.m */; };
 		1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0A1F74A37A001B5E64 /* FYSize.m */; };
 		1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */; };
@@ -148,6 +153,12 @@
 		1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC2.swift; sourceTree = "<group>"; };
 		1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYShowSB.storyboard; sourceTree = "<group>"; };
 		1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowSB.swift; sourceTree = "<group>"; };
+		1BDA18011F7C8F2F0053DF6A /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
+		1BDA18021F7C8F2F0053DF6A /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		1BDA18031F7C8F2F0053DF6A /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
+		1BDA18041F7C8F2F0053DF6A /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		1BDA18051F7C8F2F0053DF6A /* TQStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQStarRatingView.h; sourceTree = "<group>"; };
+		1BDA18061F7C8F2F0053DF6A /* TQStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQStarRatingView.m; sourceTree = "<group>"; };
 		1BE5AD061F74A329001B5E64 /* DistanceStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceStarView.h; sourceTree = "<group>"; };
 		1BE5AD071F74A329001B5E64 /* DistanceStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceStarView.m; sourceTree = "<group>"; };
 		1BE5AD091F74A37A001B5E64 /* FYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSize.h; sourceTree = "<group>"; };
@@ -260,6 +271,7 @@
 		144D887F1F6BF24B00313DBC /* OC */ = {
 			isa = PBXGroup;
 			children = (
+				1BDA17FF1F7C8F2F0053DF6A /* TQStarRating */,
 				1BDA17E21F7C86040053DF6A /* QRCode */,
 				1B80AF761F6CD4D9007526D5 /* FYFPS */,
 				144D88CC1F6C381200313DBC /* FYGCD.h */,
@@ -372,6 +384,27 @@
 				1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */,
 			);
 			path = QRCode;
+			sourceTree = "<group>";
+		};
+		1BDA17FF1F7C8F2F0053DF6A /* TQStarRating */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA18001F7C8F2F0053DF6A /* Image */,
+				1BDA18051F7C8F2F0053DF6A /* TQStarRatingView.h */,
+				1BDA18061F7C8F2F0053DF6A /* TQStarRatingView.m */,
+			);
+			path = TQStarRating;
+			sourceTree = "<group>";
+		};
+		1BDA18001F7C8F2F0053DF6A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA18011F7C8F2F0053DF6A /* backgroundStar.png */,
+				1BDA18021F7C8F2F0053DF6A /* backgroundStar@2x.png */,
+				1BDA18031F7C8F2F0053DF6A /* foregroundStar.png */,
+				1BDA18041F7C8F2F0053DF6A /* foregroundStar@2x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */ = {
@@ -492,7 +525,11 @@
 			files = (
 				144D88751F6BE3E400313DBC /* LaunchScreen.storyboard in Resources */,
 				1BDA17F11F7C86040053DF6A /* FYScanner.bundle in Resources */,
+				1BDA18091F7C8F2F0053DF6A /* foregroundStar.png in Resources */,
 				144D88721F6BE3E400313DBC /* Assets.xcassets in Resources */,
+				1BDA18081F7C8F2F0053DF6A /* backgroundStar@2x.png in Resources */,
+				1BDA180A1F7C8F2F0053DF6A /* foregroundStar@2x.png in Resources */,
+				1BDA18071F7C8F2F0053DF6A /* backgroundStar.png in Resources */,
 				1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */,
 				144D886D1F6BE3E400313DBC /* Main.storyboard in Resources */,
 			);
@@ -613,6 +650,7 @@
 				144D88841F6BF58200313DBC /* Common.swift in Sources */,
 				1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */,
 				1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */,
+				1BDA180B1F7C8F2F0053DF6A /* TQStarRatingView.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
 				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
 				1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */,

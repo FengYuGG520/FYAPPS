@@ -20,5 +20,6 @@
 #import "XLImageViewer.h"       // 图片浏览器
 #import "EwenCopyLabel.h"       // 复制的label
 #import "FYScannerController.h" // 生成二维码和二维码扫描器
+#import "TQStarRatingView.h"    // 滑动评分
 
 #endif

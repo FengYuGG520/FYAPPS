@@ -5,6 +5,8 @@ typedef void (^scoreBlock)(float f);
 
 @interface DistanceStarView : UIView
 
+// 宽 : 高 ＝ 85(+40) : 16
+
 - (id)initWithFrame:(CGRect)frame numberOfStar:(int)number;// 用于评分初始化
 
 - (void)setStarByScore:(float)score;// 用于显示分数初始化
