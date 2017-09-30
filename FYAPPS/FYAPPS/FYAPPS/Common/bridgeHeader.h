@@ -21,5 +21,6 @@
 #import "EwenCopyLabel.h"       // 复制的label
 #import "FYScannerController.h" // 生成二维码和二维码扫描器
 #import "TQStarRatingView.h"    // 滑动评分
+#import "HSUpdateApp.h"         // 网络获取APP版本信息
 
 #endif

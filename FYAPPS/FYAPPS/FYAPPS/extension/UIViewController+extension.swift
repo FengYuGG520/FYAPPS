@@ -59,4 +59,14 @@ extension UIViewController {
         self.navigationController?.navigationBar.isHidden = true
     }
     
+    // 设置导航栏的透明度为透明, 这样控制器的根视图的顶部就可以到屏幕的顶部了, 默认视图的顶部对齐着导航栏的底部
+    func fy_navTranslucent() {
+        self.navigationController?.navigationBar.isTranslucent = false
+    }
+    
+    // 设置tabBar的透明度为透明, 这样控制器的根视图的底部就可以到屏幕的底部了, 默认视图的底部对齐着tabBar的顶部
+    func fy_tabTranslucent() {
+        self.tabBarController?.tabBar.isTranslucent = false
+    }
+    
 }

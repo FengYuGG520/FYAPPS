@@ -10,72 +10,84 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var cellHeight: CGFloat = 0.0
     
     
-    let fYTableViewCell = "fYTableViewCell"
-    
-    var colorArr: [String] = ["红色", "微红色", "橘黄色", "谈入谈出", "小鸡米色", "紫色", "天蓝"]
-    var colorBool: [Bool] = [false, true, true, false, true, false, true]
-    
-    var sizeArr: [String] = ["X", "XM", "LLM", "LM", "XXX", "SS", "S"]
-    var sizeBool: [Bool] = [false, false, true, false, true, false, false]
-    
-    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.red
-                
-        tableView.fy_target(self)
-        tableView.fy_cutSeparator()
-        tableView.register(FYTextBtnCell.self, forCellReuseIdentifier: fYTableViewCell)
         
     }
     
-    @IBOutlet weak var btn: UIButton!
+    var picker: UIImagePickerController?
     
     
+    @IBOutlet weak var img: UIImageView!
+    
+    
+    @IBAction func xuanqutupian(_ sender: UITapGestureRecognizer) {
+        
+        if !UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            self.fy_showErr(title: "无法访问相册", completeBlock: { 
+                return
+            })
+        }
+        let picker = UIImagePickerController()
+        picker.view.backgroundColor = UIColor.white
+        picker.delegate = self
+        picker.allowsEditing = true
+        picker.sourceType = .photoLibrary
+        self.picker = picker
+        self.present(picker, animated: true, completion: nil)
+    }
     
 }
 
-extension ViewController: UITableViewDataSource {
+extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    // 返回组
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        picker.dismiss(animated: true, completion: nil)
+        let image = self.compressImage(image: info[UIImagePickerControllerEditedImage] as! UIImage)
+        self.img.image = image
+        
+        let data = UIImageJPEGRepresentation(image, 1.0)
+        let imgKB = (data?.count)! / 1024
+        print("imgKB -> \(imgKB)")
     }
     
-    // 返回行
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
+}
+
+extension ViewController {
     
-    // 返回 cell
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    // 压缩图片
+    func compressImage(image: UIImage) -> UIImage {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: fYTableViewCell, for: indexPath) as! FYTextBtnCell
+        // 设置图片的宽高
+        let iconWH: CGFloat = 300
         
-        cell.btnNoClickBoolArr = colorBool
-        cell.textArr = colorArr
+        let imgW = image.size.width
+        let imgH = image.size.height
         
-        cell.backgroundColor = UIColor.red
-        cellHeight = cell.cellHeight
         
-        cell.clickBlock = { (text, btn, btnTag) in
-            print("\(text)\(btnTag)")
+        if imgW < iconWH && imgH < iconWH {
+            return image
         }
         
-        return cell
+        let xScale = iconWH / imgW
+        let yScale = iconWH / imgH
+        
+        let scale = min(xScale, yScale)
+        let size = CGSize.init(width: imgW * scale, height: imgH * scale)
+        
+        UIGraphicsBeginImageContext(size)
+        
+        image.draw(in: CGRect.init(x: 0, y: 0, width: size.width, height: size.height))
+        let result = UIGraphicsGetImageFromCurrentImageContext()
+        
+        UIGraphicsEndImageContext()
+        
+        return result!
     }
     
 }
 
-extension ViewController: UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return cellHeight
-    }
-    
-}

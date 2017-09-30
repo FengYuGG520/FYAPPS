@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,31 +21,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SDI-vn-azc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-6C-jaR">
-                                <rect key="frame" x="0.0" y="311" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showErrImg" translatesAutoresizingMaskIntoConstraints="NO" id="Vkq-DF-THB">
+                                <rect key="frame" x="67" y="213.5" width="240" height="240"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vkq-DF-THB" secondAttribute="height" multiplier="1:1" id="3ek-zE-Ogf"/>
+                                    <constraint firstAttribute="width" constant="240" id="Naw-g2-Tal"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HhR-QU-szH" appends="YES" id="uBB-2S-Wh2"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SDI-vn-azc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FvC-Th-uh3"/>
-                            <constraint firstItem="SDI-vn-azc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Msu-NW-YTW"/>
-                            <constraint firstAttribute="trailing" secondItem="SDI-vn-azc" secondAttribute="trailing" id="NJV-5L-7A8"/>
-                            <constraint firstAttribute="bottom" secondItem="SDI-vn-azc" secondAttribute="bottom" id="tJf-SI-WTx"/>
+                            <constraint firstItem="Vkq-DF-THB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="83q-ch-mjZ"/>
+                            <constraint firstItem="Vkq-DF-THB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fUW-ce-nxL"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="aiz-6C-jaR" id="Jic-3O-NE3"/>
-                        <outlet property="tableView" destination="SDI-vn-azc" id="u1B-iD-7q1"/>
+                        <outlet property="img" destination="Vkq-DF-THB" id="zmD-02-7K6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HhR-QU-szH">
+                    <connections>
+                        <action selector="xuanqutupian:" destination="BYZ-38-t0r" id="542-E8-oyx"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="showErrImg" width="34" height="34"/>
+    </resources>
 </document>
