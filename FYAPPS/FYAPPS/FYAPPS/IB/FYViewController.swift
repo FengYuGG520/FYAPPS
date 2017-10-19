@@ -1,5 +1,5 @@
 //
-//  FYViewController.swift
+//  CutNavViewController.swift
 //  FYAPPS
 //
 //  Created by FengYu on 2017/9/28.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FYViewController: UIViewController {
+class CutNavViewController: UIViewController {
     
     // 自定义导航条两条代码
     override func viewWillAppear(_ animated: Bool) {

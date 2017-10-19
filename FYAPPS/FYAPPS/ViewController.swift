@@ -10,20 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
     }
     
     var picker: UIImagePickerController?
     
-    
     @IBOutlet weak var img: UIImageView!
-    
     
     @IBAction func xuanqutupian(_ sender: UITapGestureRecognizer) {
         

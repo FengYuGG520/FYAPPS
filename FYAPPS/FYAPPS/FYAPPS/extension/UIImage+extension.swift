@@ -90,4 +90,60 @@ extension UIImage {
         return image
     }
     
+    // 压缩 Icon 到 300px
+    func compressIcon() -> UIImage {
+        // 设置图片的宽高
+        let iconWH: CGFloat = 300
+        let imgW = self.size.width
+        let imgH = self.size.height
+        
+        if imgW < iconWH && imgH < iconWH {
+            return self
+        }
+        
+        let xScale = iconWH / imgW
+        let yScale = iconWH / imgH
+        let scale = min(xScale, yScale)
+        let size = CGSize.init(width: imgW * scale, height: imgH * scale)
+        
+        UIGraphicsBeginImageContext(size)
+        self.draw(in: CGRect.init(x: 0, y: 0, width: size.width, height: size.height))
+        let result = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return result!
+    }
+    
+    // 任意大小的图片压缩到 100K 以内
+    func compressData() -> Data {
+        var data = UIImageJPEGRepresentation(self, 1.0)
+        if data == nil {
+            print("图片压缩失败, 请确定图片不为nil")
+        }
+        if (data?.count)! > 100 * 1024 {
+            
+            if (data?.count)! > 1024 * 1024 {// 1M以上
+                data = UIImageJPEGRepresentation(self, 0.1)
+            }
+            else if (data?.count)! > 512 * 1024 {// 0.5-1M
+                data = UIImageJPEGRepresentation(self, 0.5)
+            }
+            else if (data?.count)! > 200 * 1024 {// 0.25-0.5M
+                data = UIImageJPEGRepresentation(self, 0.9)
+            }
+            
+        }
+        return data!
+    }
+    
+    class func dataBase64Str(data: Data) -> String {
+        return data.base64EncodedString()
+    }
+    
+    // image 为 info[UIImagePickerControllerEditedImage]
+    // 返回服务器的参数
+    class func fy_base64Str(image: UIImage) -> String {
+        return (UIImageJPEGRepresentation(image.compressIcon(), 1.0)?.base64EncodedString())!
+    }
+    
 }

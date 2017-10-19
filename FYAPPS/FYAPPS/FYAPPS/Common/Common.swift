@@ -34,6 +34,12 @@
 // 问题 3
 // Localization native development region 设置为 China 就可以让键盘的 Done 变成 完成
 
+// 问题 4
+// 微信登录获取不到openId是怎么回事 签名被清空了
+
+// 问题 5
+// 如何让tableView上拉刷新显示已经加载完毕 通过判断数据小于 10, 来设定 state = MJRefreshStateNoMoreData
+
 import UIKit
 
 let url_host = "https://api.o2ovip.com"

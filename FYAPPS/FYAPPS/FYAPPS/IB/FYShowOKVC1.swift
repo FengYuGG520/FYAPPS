@@ -32,11 +32,17 @@ class FYShowOKVC1: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(true)
+        if (UIApplication.shared.keyWindow?.rootViewController?.isKind(of: UITabBarController.self))! {
+            (UIApplication.shared.keyWindow?.rootViewController as! UITabBarController).tabBar.isUserInteractionEnabled = false
+        }
         timer = Timer.fy_time(time: time, target: self, action: #selector(disVC), info: [:], repe: false)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidAppear(true)
+        if (UIApplication.shared.keyWindow?.rootViewController?.isKind(of: UITabBarController.self))! {
+            (UIApplication.shared.keyWindow?.rootViewController as! UITabBarController).tabBar.isUserInteractionEnabled = true
+        }
         timer = nil
         if block != nil {
             block!()
