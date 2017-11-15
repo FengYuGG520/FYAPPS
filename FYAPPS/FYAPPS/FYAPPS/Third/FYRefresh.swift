@@ -16,8 +16,10 @@ private var idleImages = { ()->[UIImage] in
 private var pullingImages = { ()->[UIImage] in
     var imageArr: [UIImage] = []
     for i in 1..<19 {
-        let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
-        imageArr.append(image!)
+        if i % 3 != 1 {
+            let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
+            imageArr.append(image!)
+        }
     }
     return imageArr
 }()
@@ -25,8 +27,10 @@ private var pullingImages = { ()->[UIImage] in
 private var refreshingImages = { ()->[UIImage] in
     var imageArr: [UIImage] = []
     for i in 1..<19 {
-        let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
-        imageArr.append(image!)
+        if i % 9 == 5 {
+            let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
+            imageArr.append(image!)
+        }
     }
     return imageArr
 }()
@@ -52,6 +56,12 @@ class FYRefreshTable: UITableView {
             footer(self.pageNum)
             self.mj_footer.endRefreshing()
         })
+        
+        f?.setTitle("", for: .idle)
+        f?.setTitle("", for: .refreshing)
+        f?.setTitle("没有更多了哦", for: .noMoreData)
+        f?.setImages(idleImages, for: .idle)
+        f?.setImages(pullingImages, for: .refreshing)
         f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
@@ -74,6 +84,12 @@ class FYRefreshTable: UITableView {
             footer(self.pageNum)
             self.mj_footer.endRefreshing()
         })
+        
+        f?.setTitle("", for: .idle)
+        f?.setTitle("", for: .refreshing)
+        f?.setTitle("没有更多了哦", for: .noMoreData)
+        f?.setImages(idleImages, for: .idle)
+        f?.setImages(pullingImages, for: .refreshing)
         f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
@@ -101,6 +117,12 @@ class FYRefreshTable: UITableView {
             footer(self.pageNum)
             self.mj_footer.endRefreshing()
         })
+        
+        f?.setTitle("", for: .idle)
+        f?.setTitle("", for: .refreshing)
+        f?.setTitle("没有更多了哦", for: .noMoreData)
+        f?.setImages(idleImages, for: .idle)
+        f?.setImages(pullingImages, for: .refreshing)
         f?.isRefreshingTitleHidden = true
         
         self.mj_header = h
