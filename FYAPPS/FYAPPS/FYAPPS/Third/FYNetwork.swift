@@ -66,7 +66,7 @@ class FYNetwork: NSObject {
         
         let headers: HTTPHeaders = self.getHTTPHeaders()
         
-        Alamofire.request(url_host + urlStr, method: .put, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { (response) in
+        Alamofire.request(url_host + urlStr, method: .put, parameters: parameters, encoding: JSONEncoding(options:[]), headers: headers).responseJSON { (response) in
             
             successed(self.responseResult(response))
             

@@ -4,19 +4,31 @@ import MJRefresh
 // 刷新数据的文字颜色
 private let refreshColor = UIColor.gray
 // 设置动画图像的普通状态
-private var idleImages = { ()->[String] in
-    
-    return [""]
+private var idleImages = { ()->[UIImage] in
+    var imageArr: [UIImage] = []
+    for i in 1..<19 {
+        let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
+        imageArr.append(image!)
+    }
+    return imageArr
 }()
 // 设置动画图像的拉动状态（松开时输入刷新状态）
-private var pullingImages = { ()->[String] in
-    
-    return [""]
+private var pullingImages = { ()->[UIImage] in
+    var imageArr: [UIImage] = []
+    for i in 1..<19 {
+        let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
+        imageArr.append(image!)
+    }
+    return imageArr
 }()
 // 设置动画图像的刷新状态
-private var refreshingImages = { ()->[String] in
-    
-    return [""]
+private var refreshingImages = { ()->[UIImage] in
+    var imageArr: [UIImage] = []
+    for i in 1..<19 {
+        let image = UIImage.init(named: String.init(format: "Preloader_4_%05d", i))
+        imageArr.append(image!)
+    }
+    return imageArr
 }()
 
 typealias refreshBlock = (Int)->()
