@@ -37,7 +37,6 @@
 		1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B74B1F7329130072E674 /* FYTextBtnCell.swift */; };
 		1B2FA3051F7F34A4004C7581 /* HSUpdateApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2FA3041F7F34A4004C7581 /* HSUpdateApp.m */; };
 		1B80AF571F6C47D0007526D5 /* UIResponder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF561F6C47D0007526D5 /* UIResponder+extension.swift */; };
-		1B80AF5A1F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */; };
 		1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF711F6CCEC2007526D5 /* UICollectionView+extension.swift */; };
 		1B80AF751F6CD45F007526D5 /* NSString+hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF741F6CD45F007526D5 /* NSString+hash.m */; };
 		1B80AF7B1F6CD4D9007526D5 /* FYFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF781F6CD4D9007526D5 /* FYFPS.m */; };
@@ -46,23 +45,34 @@
 		1B80AF801F6CDB3A007526D5 /* scrollView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF7F1F6CDB3A007526D5 /* scrollView+extension.swift */; };
 		1B80AF821F6CDE2D007526D5 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF811F6CDE2D007526D5 /* String+extension.swift */; };
 		1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF831F6CE13A007526D5 /* tabBarController+extension.swift */; };
-		1B80AF861F6CE501007526D5 /* FYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF851F6CE501007526D5 /* FYTableViewCell.swift */; };
 		1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF881F6CE5FF007526D5 /* UIAlertController+FYAlertController.m */; };
 		1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */; };
 		1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */; };
 		1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */; };
+		1BB8D3F41FCF934F0072A4E9 /* FYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3F31FCF934F0072A4E9 /* FYViewController.swift */; };
+		1BB8D4031FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3F61FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift */; };
+		1BB8D4041FCF94790072A4E9 /* FYPickerVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB8D3F71FCF94790072A4E9 /* FYPickerVC.storyboard */; };
+		1BB8D4051FCF94790072A4E9 /* FYPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3F81FCF94790072A4E9 /* FYPickerVC.swift */; };
+		1BB8D4061FCF94790072A4E9 /* FYPickerVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3F91FCF94790072A4E9 /* FYPickerVC1.swift */; };
+		1BB8D4071FCF94790072A4E9 /* FYShowOKVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FA1FCF94790072A4E9 /* FYShowOKVC1.swift */; };
+		1BB8D4081FCF94790072A4E9 /* FYShowOKVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FB1FCF94790072A4E9 /* FYShowOKVC2.swift */; };
+		1BB8D4091FCF94790072A4E9 /* FYShowSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FC1FCF94790072A4E9 /* FYShowSB.storyboard */; };
+		1BB8D40A1FCF94790072A4E9 /* FYShowSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FD1FCF94790072A4E9 /* FYShowSB.swift */; };
+		1BB8D40B1FCF94790072A4E9 /* FYStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FE1FCF94790072A4E9 /* FYStartView.swift */; };
+		1BB8D40C1FCF94790072A4E9 /* FYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D3FF1FCF94790072A4E9 /* FYTableViewCell.swift */; };
+		1BB8D40D1FCF94790072A4E9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D4001FCF94790072A4E9 /* Item.swift */; };
+		1BB8D40E1FCF94790072A4E9 /* region.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BB8D4011FCF94790072A4E9 /* region.json */; };
+		1BB8D40F1FCF94790072A4E9 /* UIViewController+FYPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D4021FCF94790072A4E9 /* UIViewController+FYPickerVC.swift */; };
+		1BB8D4111FCF96E90072A4E9 /* FYAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D4101FCF96E90072A4E9 /* FYAlert.swift */; };
+		1BB8D4161FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D4131FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m */; };
+		1BB8D4171FCF98FE0072A4E9 /* UIColor+FYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8D4151FCF98FE0072A4E9 /* UIColor+FYColor.m */; };
 		1BC8F46E1F92520600B7903B /* Font+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8F46D1F92520600B7903B /* Font+extension.swift */; };
-		1BDA17E11F7C826B0053DF6A /* FYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E01F7C826B0053DF6A /* FYViewController.swift */; };
 		1BDA17F01F7C86040053DF6A /* FYScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E41F7C86040053DF6A /* FYScanerCardViewController.m */; };
 		1BDA17F21F7C86040053DF6A /* FYScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E71F7C86040053DF6A /* FYScanner.m */; };
 		1BDA17F31F7C86040053DF6A /* FYScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17E91F7C86040053DF6A /* FYScannerBorder.m */; };
 		1BDA17F41F7C86040053DF6A /* FYScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17EB1F7C86040053DF6A /* FYScannerController.m */; };
 		1BDA17F51F7C86040053DF6A /* FYScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17ED1F7C86040053DF6A /* FYScannerMaskView.m */; };
 		1BDA17F61F7C86040053DF6A /* FYScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */; };
-		1BDA17FB1F7C89870053DF6A /* FYShowOKVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */; };
-		1BDA17FC1F7C89870053DF6A /* FYShowOKVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */; };
-		1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */; };
-		1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */; };
 		1BDA18071F7C8F2F0053DF6A /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18011F7C8F2F0053DF6A /* backgroundStar.png */; };
 		1BDA18081F7C8F2F0053DF6A /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18021F7C8F2F0053DF6A /* backgroundStar@2x.png */; };
 		1BDA18091F7C8F2F0053DF6A /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA18031F7C8F2F0053DF6A /* foregroundStar.png */; };
@@ -121,7 +131,6 @@
 		1B2FA3031F7F34A4004C7581 /* HSUpdateApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUpdateApp.h; sourceTree = "<group>"; };
 		1B2FA3041F7F34A4004C7581 /* HSUpdateApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUpdateApp.m; sourceTree = "<group>"; };
 		1B80AF561F6C47D0007526D5 /* UIResponder+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+extension.swift"; sourceTree = "<group>"; };
-		1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		1B80AF711F6CCEC2007526D5 /* UICollectionView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
 		1B80AF731F6CD45F007526D5 /* NSString+hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hash.h"; sourceTree = "<group>"; };
 		1B80AF741F6CD45F007526D5 /* NSString+hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hash.m"; sourceTree = "<group>"; };
@@ -133,14 +142,31 @@
 		1B80AF7F1F6CDB3A007526D5 /* scrollView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "scrollView+extension.swift"; sourceTree = "<group>"; };
 		1B80AF811F6CDE2D007526D5 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 		1B80AF831F6CE13A007526D5 /* tabBarController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "tabBarController+extension.swift"; sourceTree = "<group>"; };
-		1B80AF851F6CE501007526D5 /* FYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYTableViewCell.swift; sourceTree = "<group>"; };
 		1B80AF871F6CE5FF007526D5 /* UIAlertController+FYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+FYAlertController.h"; sourceTree = "<group>"; };
 		1B80AF881F6CE5FF007526D5 /* UIAlertController+FYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+FYAlertController.m"; sourceTree = "<group>"; };
 		1B80AF8A1F6CE709007526D5 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8C1F6D0FB1007526D5 /* UIScreen+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+extension.swift"; sourceTree = "<group>"; };
 		1B80AF8E1F6D1016007526D5 /* UITextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+extension.swift"; sourceTree = "<group>"; };
+		1BB8D3F31FCF934F0072A4E9 /* FYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYViewController.swift; sourceTree = "<group>"; };
+		1BB8D3F61FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		1BB8D3F71FCF94790072A4E9 /* FYPickerVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYPickerVC.storyboard; sourceTree = "<group>"; };
+		1BB8D3F81FCF94790072A4E9 /* FYPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPickerVC.swift; sourceTree = "<group>"; };
+		1BB8D3F91FCF94790072A4E9 /* FYPickerVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYPickerVC1.swift; sourceTree = "<group>"; };
+		1BB8D3FA1FCF94790072A4E9 /* FYShowOKVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC1.swift; sourceTree = "<group>"; };
+		1BB8D3FB1FCF94790072A4E9 /* FYShowOKVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC2.swift; sourceTree = "<group>"; };
+		1BB8D3FC1FCF94790072A4E9 /* FYShowSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYShowSB.storyboard; sourceTree = "<group>"; };
+		1BB8D3FD1FCF94790072A4E9 /* FYShowSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowSB.swift; sourceTree = "<group>"; };
+		1BB8D3FE1FCF94790072A4E9 /* FYStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYStartView.swift; sourceTree = "<group>"; };
+		1BB8D3FF1FCF94790072A4E9 /* FYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYTableViewCell.swift; sourceTree = "<group>"; };
+		1BB8D4001FCF94790072A4E9 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1BB8D4011FCF94790072A4E9 /* region.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = region.json; sourceTree = "<group>"; };
+		1BB8D4021FCF94790072A4E9 /* UIViewController+FYPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FYPickerVC.swift"; sourceTree = "<group>"; };
+		1BB8D4101FCF96E90072A4E9 /* FYAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYAlert.swift; sourceTree = "<group>"; };
+		1BB8D4121FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+FYCollectionView.h"; sourceTree = "<group>"; };
+		1BB8D4131FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+FYCollectionView.m"; sourceTree = "<group>"; };
+		1BB8D4141FCF98FE0072A4E9 /* UIColor+FYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FYColor.h"; sourceTree = "<group>"; };
+		1BB8D4151FCF98FE0072A4E9 /* UIColor+FYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FYColor.m"; sourceTree = "<group>"; };
 		1BC8F46D1F92520600B7903B /* Font+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+extension.swift"; sourceTree = "<group>"; };
-		1BDA17E01F7C826B0053DF6A /* FYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYViewController.swift; sourceTree = "<group>"; };
 		1BDA17E31F7C86040053DF6A /* FYScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScanerCardViewController.h; sourceTree = "<group>"; };
 		1BDA17E41F7C86040053DF6A /* FYScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScanerCardViewController.m; sourceTree = "<group>"; };
 		1BDA17E61F7C86040053DF6A /* FYScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScanner.h; sourceTree = "<group>"; };
@@ -153,10 +179,6 @@
 		1BDA17ED1F7C86040053DF6A /* FYScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerMaskView.m; sourceTree = "<group>"; };
 		1BDA17EE1F7C86040053DF6A /* FYScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScannerViewController.h; sourceTree = "<group>"; };
 		1BDA17EF1F7C86040053DF6A /* FYScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScannerViewController.m; sourceTree = "<group>"; };
-		1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC1.swift; sourceTree = "<group>"; };
-		1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowOKVC2.swift; sourceTree = "<group>"; };
-		1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FYShowSB.storyboard; sourceTree = "<group>"; };
-		1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYShowSB.swift; sourceTree = "<group>"; };
 		1BDA18011F7C8F2F0053DF6A /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
 		1BDA18021F7C8F2F0053DF6A /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
 		1BDA18031F7C8F2F0053DF6A /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
@@ -254,7 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				1BC8F4681F924E6100B7903B /* Base */,
-				1B80AF581F6C4898007526D5 /* IB */,
+				1BB8D3F51FCF94790072A4E9 /* IB */,
 				144D88AD1F6C321800313DBC /* extension */,
 				144D88851F6BF68200313DBC /* Main */,
 				144D88821F6BF56500313DBC /* Common */,
@@ -296,6 +318,10 @@
 				1B2FA3041F7F34A4004C7581 /* HSUpdateApp.m */,
 				1BE5AD0C1F74A3B7001B5E64 /* EwenCopyLabel.h */,
 				1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */,
+				1BB8D4121FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.h */,
+				1BB8D4131FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m */,
+				1BB8D4141FCF98FE0072A4E9 /* UIColor+FYColor.h */,
+				1BB8D4151FCF98FE0072A4E9 /* UIColor+FYColor.m */,
 				1BF3472B1F762DD300475472 /* XLImageViewer */,
 				1BE5AD0F1F74A3E9001B5E64 /* SDCycleScrollView */,
 			);
@@ -314,6 +340,7 @@
 		144D88851F6BF68200313DBC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1BB8D4101FCF96E90072A4E9 /* FYAlert.swift */,
 				144D88861F6BF6FB00313DBC /* FYLen.swift */,
 				144D88AB1F6C31AC00313DBC /* FYDevice.swift */,
 				144D88CA1F6C338E00313DBC /* FYUserDefault.swift */,
@@ -350,20 +377,6 @@
 			path = extension;
 			sourceTree = "<group>";
 		};
-		1B80AF581F6C4898007526D5 /* IB */ = {
-			isa = PBXGroup;
-			children = (
-				1B80AF591F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift */,
-				1B80AF851F6CE501007526D5 /* FYTableViewCell.swift */,
-				1BDA17E01F7C826B0053DF6A /* FYViewController.swift */,
-				1BDA17F71F7C89870053DF6A /* FYShowOKVC1.swift */,
-				1BDA17F81F7C89870053DF6A /* FYShowOKVC2.swift */,
-				1BDA17F91F7C89870053DF6A /* FYShowSB.storyboard */,
-				1BDA17FA1F7C89870053DF6A /* FYShowSB.swift */,
-			);
-			path = IB;
-			sourceTree = "<group>";
-		};
 		1B80AF761F6CD4D9007526D5 /* FYFPS */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,9 +388,30 @@
 			path = FYFPS;
 			sourceTree = "<group>";
 		};
+		1BB8D3F51FCF94790072A4E9 /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				1BB8D3F61FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift */,
+				1BB8D3F71FCF94790072A4E9 /* FYPickerVC.storyboard */,
+				1BB8D3F81FCF94790072A4E9 /* FYPickerVC.swift */,
+				1BB8D3F91FCF94790072A4E9 /* FYPickerVC1.swift */,
+				1BB8D3FA1FCF94790072A4E9 /* FYShowOKVC1.swift */,
+				1BB8D3FB1FCF94790072A4E9 /* FYShowOKVC2.swift */,
+				1BB8D3FC1FCF94790072A4E9 /* FYShowSB.storyboard */,
+				1BB8D3FD1FCF94790072A4E9 /* FYShowSB.swift */,
+				1BB8D3FE1FCF94790072A4E9 /* FYStartView.swift */,
+				1BB8D3FF1FCF94790072A4E9 /* FYTableViewCell.swift */,
+				1BB8D4001FCF94790072A4E9 /* Item.swift */,
+				1BB8D4011FCF94790072A4E9 /* region.json */,
+				1BB8D4021FCF94790072A4E9 /* UIViewController+FYPickerVC.swift */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
 		1BC8F4681F924E6100B7903B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1BB8D3F31FCF934F0072A4E9 /* FYViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -541,12 +575,14 @@
 			files = (
 				144D88751F6BE3E400313DBC /* LaunchScreen.storyboard in Resources */,
 				1BDA18091F7C8F2F0053DF6A /* foregroundStar.png in Resources */,
+				1BB8D40E1FCF94790072A4E9 /* region.json in Resources */,
 				144D88721F6BE3E400313DBC /* Assets.xcassets in Resources */,
+				1BB8D4091FCF94790072A4E9 /* FYShowSB.storyboard in Resources */,
+				1BB8D4041FCF94790072A4E9 /* FYPickerVC.storyboard in Resources */,
 				1BDA18081F7C8F2F0053DF6A /* backgroundStar@2x.png in Resources */,
 				1BDA180A1F7C8F2F0053DF6A /* foregroundStar@2x.png in Resources */,
 				1BDA180D1F7CEB680053DF6A /* FYScanner.bundle in Resources */,
 				1BDA18071F7C8F2F0053DF6A /* backgroundStar.png in Resources */,
-				1BDA17FD1F7C89870053DF6A /* FYShowSB.storyboard in Resources */,
 				144D886D1F6BE3E400313DBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +660,7 @@
 			files = (
 				1BE5AD251F74A3E9001B5E64 /* UIView+SDExtension.m in Sources */,
 				144D88BB1F6C321800313DBC /* color+extension.swift in Sources */,
+				1BB8D4171FCF98FE0072A4E9 /* UIColor+FYColor.m in Sources */,
 				1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */,
 				1B2FA3051F7F34A4004C7581 /* HSUpdateApp.m in Sources */,
 				144D88BC1F6C321800313DBC /* Date+extension.swift in Sources */,
@@ -634,25 +671,27 @@
 				1BDA17F61F7C86040053DF6A /* FYScannerViewController.m in Sources */,
 				144D88BD1F6C321800313DBC /* Device+extension.swift in Sources */,
 				1B80AF801F6CDB3A007526D5 /* scrollView+extension.swift in Sources */,
+				1BB8D4051FCF94790072A4E9 /* FYPickerVC.swift in Sources */,
 				144D88C01F6C321800313DBC /* UIButton+extension.swift in Sources */,
 				1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */,
 				1BDA17F31F7C86040053DF6A /* FYScannerBorder.m in Sources */,
 				1BE5AD221F74A3E9001B5E64 /* TAPageControl.m in Sources */,
 				144D88AC1F6C31AC00313DBC /* FYDevice.swift in Sources */,
 				144D88D11F6C3B8300313DBC /* UIViewController+FYViewController.m in Sources */,
-				1B80AF861F6CE501007526D5 /* FYTableViewCell.swift in Sources */,
 				144D88891F6BF7A500313DBC /* FYNetwork.swift in Sources */,
 				144D88C21F6C321800313DBC /* UITableView+extension.swift in Sources */,
 				1BF347361F762DD300475472 /* XLImageViewerItem.m in Sources */,
 				1B80AF7E1F6CD7F2007526D5 /* navigationController+extension.swift in Sources */,
 				1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */,
+				1BB8D3F41FCF934F0072A4E9 /* FYViewController.swift in Sources */,
+				1BB8D40F1FCF94790072A4E9 /* UIViewController+FYPickerVC.swift in Sources */,
 				144D88C31F6C321800313DBC /* UIView+extension.swift in Sources */,
 				1BF347341F762DD300475472 /* XLImageLoading.m in Sources */,
 				1BDA17F21F7C86040053DF6A /* FYScanner.m in Sources */,
 				1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */,
-				1BDA17FC1F7C89870053DF6A /* FYShowOKVC2.swift in Sources */,
 				1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */,
 				144D88BA1F6C321800313DBC /* CADisplayLink+extension.swift in Sources */,
+				1BB8D4161FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m in Sources */,
 				144D88C41F6C321800313DBC /* UIViewController+extension.swift in Sources */,
 				1BDA17F01F7C86040053DF6A /* FYScanerCardViewController.m in Sources */,
 				144D88BF1F6C321800313DBC /* Timer+extension.swift in Sources */,
@@ -661,32 +700,37 @@
 				1B80AF7B1F6CD4D9007526D5 /* FYFPS.m in Sources */,
 				1BDA17F41F7C86040053DF6A /* FYScannerController.m in Sources */,
 				1B80AF751F6CD45F007526D5 /* NSString+hash.m in Sources */,
+				1BB8D4081FCF94790072A4E9 /* FYShowOKVC2.swift in Sources */,
+				1BB8D4031FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift in Sources */,
 				1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */,
 				144D88CE1F6C381200313DBC /* FYGCD.m in Sources */,
 				144D886A1F6BE3E300313DBC /* ViewController.swift in Sources */,
 				144D88841F6BF58200313DBC /* Common.swift in Sources */,
-				1BDA17FE1F7C89870053DF6A /* FYShowSB.swift in Sources */,
 				1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */,
 				1BDA180B1F7C8F2F0053DF6A /* TQStarRatingView.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
+				1BB8D40A1FCF94790072A4E9 /* FYShowSB.swift in Sources */,
 				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
 				1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */,
 				144D88A01F6C1A0200313DBC /* UIImageView+extension.swift in Sources */,
 				1BE5AD201F74A3E9001B5E64 /* TAAnimatedDotView.m in Sources */,
-				1BDA17FB1F7C89870053DF6A /* FYShowOKVC1.swift in Sources */,
+				1BB8D4061FCF94790072A4E9 /* FYPickerVC1.swift in Sources */,
 				144D88BE1F6C321800313DBC /* notification+extension.swift in Sources */,
 				144D88681F6BE3E300313DBC /* AppDelegate.swift in Sources */,
+				1BB8D40B1FCF94790072A4E9 /* FYStartView.swift in Sources */,
 				1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */,
 				1BF347351F762DD300475472 /* XLImageViewer.m in Sources */,
 				144D88C71F6C327A00313DBC /* UILabel+extension.swift in Sources */,
+				1BB8D40D1FCF94790072A4E9 /* Item.swift in Sources */,
 				1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */,
+				1BB8D4111FCF96E90072A4E9 /* FYAlert.swift in Sources */,
 				1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */,
 				1B80AF7C1F6CD4D9007526D5 /* UIWindow+FPS.m in Sources */,
 				1BC8F46E1F92520600B7903B /* Font+extension.swift in Sources */,
-				1BDA17E11F7C826B0053DF6A /* FYViewController.swift in Sources */,
+				1BB8D40C1FCF94790072A4E9 /* FYTableViewCell.swift in Sources */,
 				1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */,
-				1B80AF5A1F6C48E1007526D5 /* FYCollectionViewFlowLayout.swift in Sources */,
 				1BE5AD1F1F74A3E9001B5E64 /* TAAbstractDotView.m in Sources */,
+				1BB8D4071FCF94790072A4E9 /* FYShowOKVC1.swift in Sources */,
 				144D88CB1F6C338E00313DBC /* FYUserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

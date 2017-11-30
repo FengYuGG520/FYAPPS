@@ -6,6 +6,13 @@ extension UIViewController {
         self.navigationController?.pushViewController(UIViewController.fy_sb(name: sbName).instantiateViewController(withIdentifier: vcId), animated: animated)
     }
     
+    func fy_popVC(_ count: Int) {
+        if self.navigationController == nil { return }
+        let index: Int = (self.navigationController?.viewControllers.count)! - (count + 1)
+        let vc: UIViewController = (self.navigationController?.viewControllers[index])!
+        self.navigationController?.popToViewController(vc, animated: true)
+    }
+    
     func fy_pop(animated: Bool) {
         self.navigationController?.popViewController(animated: animated)
     }
