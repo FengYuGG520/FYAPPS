@@ -62,7 +62,6 @@ extension ViewController {
         let imgW = image.size.width
         let imgH = image.size.height
         
-        
         if imgW < iconWH && imgH < iconWH {
             return image
         }
