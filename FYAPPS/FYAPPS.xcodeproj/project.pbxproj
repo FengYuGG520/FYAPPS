@@ -93,6 +93,7 @@
 		1BF347351F762DD300475472 /* XLImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3472F1F762DD300475472 /* XLImageViewer.m */; };
 		1BF347361F762DD300475472 /* XLImageViewerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347311F762DD300475472 /* XLImageViewerItem.m */; };
 		1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347331F762DD300475472 /* XLImageViewerTooBar.m */; };
+		1BFC96271FD156AC008619A8 /* FYCircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC96261FD156AC008619A8 /* FYCircleAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,6 +215,7 @@
 		1BF347311F762DD300475472 /* XLImageViewerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerItem.m; sourceTree = "<group>"; };
 		1BF347321F762DD300475472 /* XLImageViewerTooBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageViewerTooBar.h; sourceTree = "<group>"; };
 		1BF347331F762DD300475472 /* XLImageViewerTooBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerTooBar.m; sourceTree = "<group>"; };
+		1BFC96261FD156AC008619A8 /* FYCircleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCircleAnimation.swift; sourceTree = "<group>"; };
 		628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.debug.xcconfig"; sourceTree = "<group>"; };
 		85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAPPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.release.xcconfig"; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 			isa = PBXGroup;
 			children = (
 				1BB8D3F31FCF934F0072A4E9 /* FYViewController.swift */,
+				1BFC96261FD156AC008619A8 /* FYCircleAnimation.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -689,6 +692,7 @@
 				1BF347341F762DD300475472 /* XLImageLoading.m in Sources */,
 				1BDA17F21F7C86040053DF6A /* FYScanner.m in Sources */,
 				1B80AF841F6CE13A007526D5 /* tabBarController+extension.swift in Sources */,
+				1BFC96271FD156AC008619A8 /* FYCircleAnimation.swift in Sources */,
 				1BE5AD211F74A3E9001B5E64 /* TADotView.m in Sources */,
 				144D88BA1F6C321800313DBC /* CADisplayLink+extension.swift in Sources */,
 				1BB8D4161FCF98FE0072A4E9 /* UICollectionView+FYCollectionView.m in Sources */,
