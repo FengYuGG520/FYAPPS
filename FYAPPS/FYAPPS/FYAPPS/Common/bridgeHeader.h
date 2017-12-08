@@ -24,5 +24,6 @@
 #import "HSUpdateApp.h"         // 网络获取APP版本信息
 #import "UICollectionView+FYCollectionView.h"
 #import "UIColor+FYColor.h"
+#import "FYWavesView.h"         // 悬浮头像
 
 #endif

@@ -93,6 +93,7 @@
 		1BF347351F762DD300475472 /* XLImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3472F1F762DD300475472 /* XLImageViewer.m */; };
 		1BF347361F762DD300475472 /* XLImageViewerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347311F762DD300475472 /* XLImageViewerItem.m */; };
 		1BF347371F762DD300475472 /* XLImageViewerTooBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF347331F762DD300475472 /* XLImageViewerTooBar.m */; };
+		1BFB1AE41FDA92AF002BF9B9 /* FYWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB1AE31FDA92AF002BF9B9 /* FYWavesView.m */; };
 		1BFC96271FD156AC008619A8 /* FYCircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC96261FD156AC008619A8 /* FYCircleAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -215,6 +216,8 @@
 		1BF347311F762DD300475472 /* XLImageViewerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerItem.m; sourceTree = "<group>"; };
 		1BF347321F762DD300475472 /* XLImageViewerTooBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLImageViewerTooBar.h; sourceTree = "<group>"; };
 		1BF347331F762DD300475472 /* XLImageViewerTooBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLImageViewerTooBar.m; sourceTree = "<group>"; };
+		1BFB1AE21FDA92AF002BF9B9 /* FYWavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYWavesView.h; sourceTree = "<group>"; };
+		1BFB1AE31FDA92AF002BF9B9 /* FYWavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWavesView.m; sourceTree = "<group>"; };
 		1BFC96261FD156AC008619A8 /* FYCircleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FYCircleAnimation.swift; sourceTree = "<group>"; };
 		628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.debug.xcconfig"; sourceTree = "<group>"; };
 		85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAPPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,6 +309,8 @@
 				1B80AF761F6CD4D9007526D5 /* FYFPS */,
 				144D88CC1F6C381200313DBC /* FYGCD.h */,
 				144D88CD1F6C381200313DBC /* FYGCD.m */,
+				1BFB1AE21FDA92AF002BF9B9 /* FYWavesView.h */,
+				1BFB1AE31FDA92AF002BF9B9 /* FYWavesView.m */,
 				144D88CF1F6C3B8300313DBC /* UIViewController+FYViewController.h */,
 				144D88D01F6C3B8300313DBC /* UIViewController+FYViewController.m */,
 				1B80AF871F6CE5FF007526D5 /* UIAlertController+FYAlertController.h */,
@@ -713,6 +718,7 @@
 				1BE5AD241F74A3E9001B5E64 /* SDCycleScrollView.m in Sources */,
 				1BDA180B1F7C8F2F0053DF6A /* TQStarRatingView.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
+				1BFB1AE41FDA92AF002BF9B9 /* FYWavesView.m in Sources */,
 				1BB8D40A1FCF94790072A4E9 /* FYShowSB.swift in Sources */,
 				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
 				1BE5AD231F74A3E9001B5E64 /* SDCollectionViewCell.m in Sources */,
