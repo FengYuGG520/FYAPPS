@@ -25,5 +25,6 @@
 #import "UICollectionView+FYCollectionView.h"
 #import "UIColor+FYColor.h"
 #import "FYWavesView.h"         // 悬浮头像
+#import "UINavigationController+WXSTransition.h"// 控制器 push present 转场动画
 
 #endif
