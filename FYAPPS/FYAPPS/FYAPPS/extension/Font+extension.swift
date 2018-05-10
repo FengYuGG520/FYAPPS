@@ -6,6 +6,21 @@ extension UILabel {
         self.font = UIFont.init(name: "FZZQJW--GB1-0", size: font)
     }
     
+    func fy_Fontweight6(_ size: CGFloat) {
+        var s = size
+        if screenWidth < 370 {
+            s -= 2
+        }
+        if screenWidth > 380 {
+            s += 2
+        }
+        if #available(iOS 8.2, *) {
+            self.font = UIFont.systemFont(ofSize: s, weight: UIFontWeight.init(6))
+        } else {
+            self.font = UIFont.systemFont(ofSize: s)
+        }
+    }
+    
 }
 
 extension UIButton {
