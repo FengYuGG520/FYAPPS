@@ -9,7 +9,7 @@ extension UILabel {
     func fy_Fontweight6(_ size: CGFloat) {
         var s = size
         if screenWidth < 370 {
-            s -= 2
+            s -= 4
         }
         if screenWidth > 380 {
             s += 2
