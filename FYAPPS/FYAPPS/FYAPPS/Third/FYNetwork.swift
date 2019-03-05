@@ -28,7 +28,7 @@ class FYNetwork: NSObject {
         }
         return emptyString
     }
-    
+
     func GET(urlStr: String,
              parameters: [String: Any]?,
              successed: @escaping ((_ responseObj: Any)->())
@@ -43,7 +43,7 @@ class FYNetwork: NSObject {
         }
         
     }
-    
+
     func POST(urlStr: String,
              parameters: [String: Any]?,
              successed: @escaping ((_ responseObj: Any)->())
@@ -58,7 +58,7 @@ class FYNetwork: NSObject {
         }
         
     }
-    
+
     func PUT(urlStr: String,
               parameters: [String: Any]?,
               successed: @escaping ((_ responseObj: Any)->())
@@ -73,7 +73,7 @@ class FYNetwork: NSObject {
         }
         
     }
-    
+
     func DELETE(urlStr: String,
              parameters: [String: Any]?,
              successed: @escaping ((_ responseObj: Any)->())
@@ -88,5 +88,5 @@ class FYNetwork: NSObject {
         }
         
     }
-    
+
 }

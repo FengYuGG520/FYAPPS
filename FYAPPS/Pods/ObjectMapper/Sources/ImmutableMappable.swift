@@ -6,7 +6,7 @@
 //
 //  The MIT License (MIT)
 //
-//  Copyright (c) 2014-2016 Hearst
+//  Copyright (c) 2014-2018 Tristan Himmelman
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -108,7 +108,8 @@ public extension Map {
 		guard let jsonArray = currentValue as? [Any] else {
 			throw MapError(key: key, currentValue: currentValue, reason: "Cannot cast to '[Any]'", file: file, function: function, line: line)
 		}
-		return try jsonArray.enumerated().map { i, JSONObject -> T in
+		
+		return try jsonArray.map { JSONObject -> T in
 			return try Mapper<T>(context: context).mapOrFail(JSONObject: JSONObject)
 		}
 	}
@@ -119,9 +120,10 @@ public extension Map {
 		guard let jsonArray = currentValue as? [Any] else {
 			throw MapError(key: key, currentValue: currentValue, reason: "Cannot cast to '[Any]'", file: file, function: function, line: line)
 		}
-		return try jsonArray.enumerated().map { i, json -> Transform.Object in
+		
+		return try jsonArray.map { json -> Transform.Object in
 			guard let object = transform.transformFromJSON(json) else {
-				throw MapError(key: "\(key)[\(i)]", currentValue: json, reason: "Cannot transform to '\(Transform.Object.self)' using \(transform)", file: file, function: function, line: line)
+				throw MapError(key: "\(key)", currentValue: json, reason: "Cannot transform to '\(Transform.Object.self)' using \(transform)", file: file, function: function, line: line)
 			}
 			return object
 		}
@@ -183,16 +185,16 @@ public extension Map {
 			throw MapError(key: key, currentValue: currentValue, reason: "Cannot cast to '[[Any]]'",
 			               file: file, function: function, line: line)
 		}
-		return try json2DArray.enumerated().map { i, jsonArray in
-			try jsonArray.enumerated().map { j, json -> Transform.Object in
+		
+		return try json2DArray.map { jsonArray in
+			try jsonArray.map { json -> Transform.Object in
 				guard let object = transform.transformFromJSON(json) else {
-					throw MapError(key: "\(key)[\(i)][\(j)]", currentValue: json, reason: "Cannot transform to '\(Transform.Object.self)' using \(transform)", file: file, function: function, line: line)
+					throw MapError(key: "\(key)", currentValue: json, reason: "Cannot transform to '\(Transform.Object.self)' using \(transform)", file: file, function: function, line: line)
 				}
 				return object
 			}
 		}
 	}
-	
 }
 
 public extension Mapper where N: ImmutableMappable {
@@ -212,7 +214,11 @@ public extension Mapper where N: ImmutableMappable {
 	// MARK: Array mapping functions
 	
 	public func mapArray(JSONArray: [[String: Any]]) throws -> [N] {
+		#if swift(>=4.1)
+		return try JSONArray.compactMap(mapOrFail)
+		#else
 		return try JSONArray.flatMap(mapOrFail)
+		#endif
 	}
 	
 	public func mapArray(JSONString: String) throws -> [N] {
@@ -279,7 +285,7 @@ public extension Mapper where N: ImmutableMappable {
 
 }
 
-internal extension Mapper where N: BaseMappable {
+internal extension Mapper {
 
 	internal func mapOrFail(JSON: [String: Any]) throws -> N {
 		let map = Map(mappingType: .fromJSON, JSON: JSON, context: context, shouldIncludeNilValues: shouldIncludeNilValues)

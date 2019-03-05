@@ -621,8 +621,7 @@
 				144D88601F6BE3E300313DBC /* Sources */,
 				144D88611F6BE3E300313DBC /* Frameworks */,
 				144D88621F6BE3E300313DBC /* Resources */,
-				ED8D6E55B400E38210579E6E /* [CP] Embed Pods Frameworks */,
-				BF01C9555BACA746BF994A34 /* [CP] Copy Pods Resources */,
+				619D35E82B8C6D58316830BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -645,7 +644,7 @@
 				TargetAttributes = {
 					144D88631F6BE3E300313DBC = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = FS9QQ7PZM7;
+						DevelopmentTeam = MZE84VL8YP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -708,28 +707,15 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF01C9555BACA746BF994A34 /* [CP] Copy Pods Resources */ = {
+		619D35E82B8C6D58316830BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED8D6E55B400E38210579E6E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FYAPPS/Pods-FYAPPS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -738,6 +724,8 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -748,7 +736,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FYAPPS/Pods-FYAPPS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -975,7 +963,7 @@
 			baseConfigurationReference = 628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FS9QQ7PZM7;
+				DEVELOPMENT_TEAM = MZE84VL8YP;
 				INFOPLIST_FILE = FYAPPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -991,7 +979,7 @@
 			baseConfigurationReference = F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FS9QQ7PZM7;
+				DEVELOPMENT_TEAM = MZE84VL8YP;
 				INFOPLIST_FILE = FYAPPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
