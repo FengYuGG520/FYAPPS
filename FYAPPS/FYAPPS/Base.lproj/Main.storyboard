@@ -20,40 +20,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showErrImg" translatesAutoresizingMaskIntoConstraints="NO" id="Vkq-DF-THB">
-                                <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Vkq-DF-THB" secondAttribute="height" multiplier="1:1" id="3ek-zE-Ogf"/>
-                                    <constraint firstAttribute="width" constant="240" id="Naw-g2-Tal"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="HhR-QU-szH" appends="YES" id="uBB-2S-Wh2"/>
-                                </connections>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Vkq-DF-THB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="83q-ch-mjZ"/>
-                            <constraint firstItem="Vkq-DF-THB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fUW-ce-nxL"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="img" destination="Vkq-DF-THB" id="zmD-02-7K6"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="HhR-QU-szH">
-                    <connections>
-                        <action selector="xuanqutupian:" destination="BYZ-38-t0r" id="542-E8-oyx"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="559" y="26"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="showErrImg" width="34" height="34"/>
-    </resources>
 </document>

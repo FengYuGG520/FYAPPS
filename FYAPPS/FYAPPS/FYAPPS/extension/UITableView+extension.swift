@@ -15,7 +15,7 @@ extension UITableView {
         self.separatorStyle = .none
     }
     
-    func fy_reload(row: Int, section: Int, animation: UITableViewRowAnimation) {
+    func fy_reload(row: Int, section: Int, animation: UITableView.RowAnimation) {
         self.reloadRows(at: [IndexPath.init(row: row, section: section)], with: animation)
     }
     

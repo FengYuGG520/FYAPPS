@@ -1,3 +1,11 @@
+//
+//  WXSTransitionManager+SystermAnimation.m
+//  WXSTransition
+//
+//  Created by AlanWang on 16/9/22.
+//  Copyright © 2016年 王小树. All rights reserved.
+//
+
 #import "WXSTransitionManager+SystermAnimation.h"
 #import "WXSTransitionManager+TypeTool.h"
 

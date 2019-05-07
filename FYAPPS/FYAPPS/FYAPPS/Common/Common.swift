@@ -42,8 +42,6 @@
 
 import UIKit
 
-let url_host = "https://api.o2ovip.com"
-
 // 屏幕宽度
 let screenWidth: CGFloat = UIScreen.main.bounds.size.width
 // 屏幕高度
@@ -52,3 +50,8 @@ let screenHeight: CGFloat = UIScreen.main.bounds.size.height
 let deviceUUID: String = (UIDevice.current.identifierForVendor?.uuidString)!
 // 空字符串
 let emptyString = ""
+
+// 适配nav
+let navHeightConstant: CGFloat = CGFloat((screenHeight / screenWidth) >= (896 / 414) ? 44 : 20)
+// 适配tab
+let tabHeightConstant: CGFloat = CGFloat((screenHeight / screenWidth) >= (896 / 414) ? 34 : 0)

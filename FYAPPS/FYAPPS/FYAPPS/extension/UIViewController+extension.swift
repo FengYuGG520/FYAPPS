@@ -33,12 +33,12 @@ extension UIViewController {
     // 父子控制器
     func fy_addController(controller: UIViewController, viewTo: UIView) {
         // 1. 调用容器控制器的 addChildViewController 的方法, 把其他控制器传过来
-        self.addChildViewController(controller)
+        self.addChild(controller)
         // 2. 把其他控制器的根视图作为容器控制器的根视图里的子视图
         viewTo.addSubview(controller.view)
         // 3. 设置其他控制器的根视图大小 (可以省略, 省略的话就跟容器控制器的根视图一样大)
         // 4. 调用其他控制器的 didMoveToParentViewController 方法
-        controller.didMove(toParentViewController: self)
+        controller.didMove(toParent: self)
     }
     
     // 设置控制器右边导航项的文字, 点击事件, 返回项的文字, 导航栏的文本

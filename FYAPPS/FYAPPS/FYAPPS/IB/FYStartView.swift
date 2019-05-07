@@ -65,14 +65,14 @@ class FYStartView: UIView {
         for position in 0 ..< numStars {
             let imageView = UIImageView(image: image)
             imageView.frame = CGRect(x: CGFloat(position) * self.bounds.size.width / CGFloat(numStars), y: 0, width: self.bounds.size.width / CGFloat(numStars), height: self.bounds.size.height)
-            imageView.contentMode = UIViewContentMode.scaleAspectFit
+            imageView.contentMode = UIView.ContentMode.scaleAspectFit
             view.addSubview(imageView)
         }
         return view
     }
     
     // 点击编辑分数后，通过手势的x坐标来设置数值
-    func tapRateView(_ sender: UITapGestureRecognizer) {
+    @objc func tapRateView(_ sender: UITapGestureRecognizer) {
         if isIndicator { return }// 如果是指示器，就不能交互
         let tapPoint = sender.location(in: self)
         let offset = tapPoint.x

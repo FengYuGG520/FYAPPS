@@ -1,3 +1,4 @@
+
 #import "WXSTransitionManager.h"
 #import "UIViewController+WXSTransition.h"
 #import <objc/runtime.h>
@@ -322,7 +323,7 @@
     UIViewController *fromVC = [_transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toVC = [_transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
 
-    void (^RemoveDelegateBlock)() = ^(){
+    void (^RemoveDelegateBlock)(void) = ^(){
         
         fromVC.transitioningDelegate = nil;
         fromVC.navigationController.delegate = nil;

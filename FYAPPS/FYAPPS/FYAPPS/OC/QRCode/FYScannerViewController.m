@@ -111,7 +111,7 @@
                 [self clickCloseButton];
             }];
         } else {
-            tipLabel.text = @"没有识别到二维码，请选择其他照片";
+            self->tipLabel.text = @"没有识别到二维码，请选择其他照片";
             
             [self dismissViewControllerAnimated:YES completion:nil];
         }

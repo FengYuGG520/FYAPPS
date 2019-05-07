@@ -1,13 +1,14 @@
 
 target 'FYAPPS' do
-
+  
   use_frameworks!
-
-pod 'MJRefresh'
-pod 'MBProgressHUD'
-pod 'Alamofire'
-pod 'ObjectMapper'
-pod 'Kingfisher'
-pod 'SDWebImage'
-
+  
+  pod 'AFNetworking'
+  pod 'ObjectMapper'
+  pod 'SDWebImage'
+  pod 'Kingfisher'
+  pod 'MJRefresh'
+  pod 'SDCycleScrollView'
+  pod 'SGQRCode'
+  
 end

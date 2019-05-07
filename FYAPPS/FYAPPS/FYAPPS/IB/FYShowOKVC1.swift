@@ -49,7 +49,7 @@ class FYShowOKVC1: UIViewController {
         }
     }
     
-    func disVC() {
+    @objc func disVC() {
         self.dismiss(animated: true, completion: nil)
     }
     

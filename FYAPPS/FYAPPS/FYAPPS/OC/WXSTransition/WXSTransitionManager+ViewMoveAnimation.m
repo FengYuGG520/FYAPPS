@@ -1,3 +1,11 @@
+//
+//  WXSTransitionManager+ViewMoveAnimation.m
+//  WXSTransition
+//
+//  Created by AlanWang on 16/9/22.
+//  Copyright © 2016年 王小树. All rights reserved.
+//
+
 #import "WXSTransitionManager+ViewMoveAnimation.h"
 
 @implementation WXSTransitionManager (ViewMoveAnimation)
@@ -41,13 +49,13 @@
     __weak typeof(self) weakSelf = self;
     
     
-    void(^AnimationBlock)() = ^(){
+    void(^AnimationBlock)(void) = ^(){
         startView.frame = [weakSelf.targetView convertRect:weakSelf.targetView.bounds toView:containerView];
         toVC.view.alpha = 1;
         fromVC.view.alpha = 0.0;
     };
     
-    void(^AnimationCompletion)() = ^(void){
+    void(^AnimationCompletion)(void) = ^(void){
         startView.hidden = YES;
         weakSelf.startView.hidden = NO;
         weakSelf.targetView.hidden = NO;
@@ -93,13 +101,13 @@
     fromVC.view.alpha = 1;
     tempView.frame = [self.targetView convertRect:self.targetView.bounds toView:fromVC.view];
     __weak typeof(self) weakSelf = self;
-    void(^AnimationBlock)() = ^(){
+    void(^AnimationBlock)(void) = ^(){
         tempView.frame = [weakSelf.startView convertRect:weakSelf.startView.bounds toView:containerView];
         fromVC.view.alpha = 0;
         toVC.view.alpha = 1;
     };
     
-    void(^AnimationCompletion)() = ^(void){
+    void(^AnimationCompletion)(void) = ^(void){
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
         if ([transitionContext transitionWasCancelled]) {
             tempView.hidden = YES;

@@ -1,38 +1,57 @@
 PODS:
-  - Alamofire (4.8.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - Kingfisher (4.10.1)
-  - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.15.7)
   - ObjectMapper (3.4.2)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
+  - SGQRCode (3.0.1)
 
 DEPENDENCIES:
-  - Alamofire
+  - AFNetworking
   - Kingfisher
-  - MBProgressHUD
   - MJRefresh
   - ObjectMapper
+  - SDCycleScrollView
   - SDWebImage
+  - SGQRCode
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Alamofire
+    - AFNetworking
     - Kingfisher
-    - MBProgressHUD
     - MJRefresh
     - ObjectMapper
+    - SDCycleScrollView
     - SDWebImage
+    - SGQRCode
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
 
-PODFILE CHECKSUM: bc7083955e7bdaba917fd6e4caab3d4d4f09e313
+PODFILE CHECKSUM: adf0a903f6fe64ee39a0fceb2815ed914ece6978
 
 COCOAPODS: 1.6.1

@@ -36,7 +36,7 @@
     [self.view addSubview:cardImageView];
     
     [FYScanner qrImageWithString:self.cardName avatar:self.avatar completion:^(UIImage *image) {
-        cardImageView.image = image;
+        self->cardImageView.image = image;
     }];
 }
 

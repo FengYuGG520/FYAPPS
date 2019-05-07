@@ -1,6 +1,6 @@
 import UIKit
 
-fileprivate let versionKey = "versionKey"
+fileprivate let versionKey = "FYVersionKey"
 
 enum FY_Path: Int {
     case caches = 0

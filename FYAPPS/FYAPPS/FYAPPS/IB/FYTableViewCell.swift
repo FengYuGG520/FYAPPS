@@ -3,7 +3,7 @@ import UIKit
 // 用个类继承 FYTableViewCell, 重写 awakeFromNib 和 setupUI
 class FYTableViewCell: UITableViewCell {
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupUI()
     }

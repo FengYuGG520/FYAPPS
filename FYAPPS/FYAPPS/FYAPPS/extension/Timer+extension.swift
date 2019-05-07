@@ -5,7 +5,7 @@ extension Timer {
     // 开启时钟做事情 参数1: 多久后做 参数2: 谁来做 参数3: 做什么 参数4: 附加信息 参数5: 是否重复做
     static func fy_time(time: Double, target: Any, action: Selector, info: [String: Any], repe: Bool) -> Timer! {
         let timer = Timer.init(timeInterval: time, target: target, selector: action, userInfo: info, repeats: repe)
-        RunLoop.current.add(timer, forMode: .commonModes)
+        RunLoop.current.add(timer, forMode: .common)
         return timer
     }
     

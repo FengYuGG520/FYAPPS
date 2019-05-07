@@ -1,3 +1,11 @@
+//
+//  WXSTransitionManager+SpreadAnimation.m
+//  WXSTransition
+//
+//  Created by AlanWang on 16/9/21.
+//  Copyright © 2016年 王小树. All rights reserved.
+//
+
 #import "WXSTransitionManager+SpreadAnimation.h"
 
 @implementation WXSTransitionManager (SpreadAnimation)

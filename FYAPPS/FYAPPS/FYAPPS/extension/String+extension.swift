@@ -20,4 +20,9 @@ extension String {
         return ""
     }
     
+    // 根据字符串的宽度和大小获得高度
+    func fy_height(_ width: CGFloat, _ textFont: UIFont) -> CGFloat {
+        return (self as NSString).fy_height(withWidth: width, textFont: textFont)
+    }
+    
 }

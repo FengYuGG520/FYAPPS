@@ -15,7 +15,7 @@ extension UILabel {
             s += 2
         }
         if #available(iOS 8.2, *) {
-            self.font = UIFont.systemFont(ofSize: s, weight: UIFontWeight.init(6))
+            self.font = UIFont.systemFont(ofSize: s, weight: UIFont.Weight.init(6))
         } else {
             self.font = UIFont.systemFont(ofSize: s)
         }

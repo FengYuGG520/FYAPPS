@@ -10,7 +10,7 @@
 /**
  *  无参数无返回值的代码块
  */
-typedef void (^FYBlock)();
+typedef void (^FYBlock)(void);
 
 typedef dispatch_queue_t fy_gcd_queue;
 typedef dispatch_group_t fy_gcd_group;

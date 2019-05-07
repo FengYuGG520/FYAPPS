@@ -1,3 +1,11 @@
+//
+//  WXSTransitionProperty.h
+//  WXSTransition
+//
+//  Created by 王小树 on 16/7/1.
+//  Copyright © 2016年 王小树. All rights reserved.
+//
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "WXSTypedefConfig.h"

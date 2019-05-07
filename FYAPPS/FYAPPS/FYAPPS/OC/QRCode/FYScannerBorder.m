@@ -25,7 +25,7 @@
                      animations:^{
                          [UIView setAnimationRepeatCount:MAXFLOAT];
                          
-                         scannerLine.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height);
+                         self->scannerLine.center = CGPointMake(self.bounds.size.width * 0.5, self.bounds.size.height);
                      } completion:nil];
 }
 

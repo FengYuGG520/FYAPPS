@@ -1,3 +1,11 @@
+//
+//  WXSTransitionManager+FlipAnimation.m
+//  WXSTransition
+//
+//  Created by AlanWang on 2017/6/12.
+//  Copyright © 2017年 王小树. All rights reserved.
+//
+
 #import "WXSTransitionManager+FlipAnimation.h"
 
 @implementation WXSTransitionManager (FlipAnimation)

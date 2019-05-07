@@ -16,7 +16,7 @@ class FYAlert: NSObject {
     }
     
     static func fy_alert(title: String, describe: String?, location: FY_Location, target: UIViewController, block: @escaping ((UIAlertAction)->())) {
-        let style: UIAlertControllerStyle = (location == .bottom ? UIAlertControllerStyle.actionSheet : UIAlertControllerStyle.alert)
+        let style: UIAlertController.Style = (location == .bottom ? UIAlertController.Style.actionSheet : UIAlertController.Style.alert)
         let alert: UIAlertController = UIAlertController.init(title: title, message: describe, preferredStyle: style)
         target.present(alert, animated: true, completion: nil)
         alert.addAction(UIAlertAction.init(title: "取消", style: .cancel, handler: nil))

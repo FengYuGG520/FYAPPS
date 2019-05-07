@@ -12,7 +12,7 @@ extension CADisplayLink {
             // Fallback on earlier versions
         }
         // 把刷帧时钟加入到 NSRunLoopCommonModes 模式
-        link.add(to: RunLoop.current, forMode: .commonModes)
+        link.add(to: RunLoop.current, forMode: .common)
         return link
     }
     

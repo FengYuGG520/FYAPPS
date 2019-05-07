@@ -8,14 +8,6 @@ extension UIImage {
         return UIImage(named: name)?.withRenderingMode(.alwaysOriginal)
     }
     
-    // 根据文件路径写入图片到沙盒
-    func fy_writeTo(path: String) {
-        do{
-            try UIImageJPEGRepresentation(self, 1.0)?.write(to: URL(fileURLWithPath: path))
-        }
-        catch {}
-    }
-    
     // 根据文件路径读取图片
     func fy_readIn(path: String) -> UIImage? {
         if FileManager.default.fileExists(atPath: path) {
@@ -112,38 +104,6 @@ extension UIImage {
         UIGraphicsEndImageContext()
         
         return result!
-    }
-    
-    // 任意大小的图片压缩到 100K 以内
-    func compressData() -> Data {
-        var data = UIImageJPEGRepresentation(self, 1.0)
-        if data == nil {
-            print("图片压缩失败, 请确定图片不为nil")
-        }
-        if (data?.count)! > 100 * 1024 {
-            
-            if (data?.count)! > 1024 * 1024 {// 1M以上
-                data = UIImageJPEGRepresentation(self, 0.1)
-            }
-            else if (data?.count)! > 512 * 1024 {// 0.5-1M
-                data = UIImageJPEGRepresentation(self, 0.5)
-            }
-            else if (data?.count)! > 200 * 1024 {// 0.25-0.5M
-                data = UIImageJPEGRepresentation(self, 0.9)
-            }
-            
-        }
-        return data!
-    }
-    
-    class func dataBase64Str(data: Data) -> String {
-        return data.base64EncodedString()
-    }
-    
-    // image 为 info[UIImagePickerControllerEditedImage]
-    // 返回服务器的参数
-    class func fy_base64Str(image: UIImage) -> String {
-        return (UIImageJPEGRepresentation(image.compressIcon(), 1.0)?.base64EncodedString())!
     }
     
 }

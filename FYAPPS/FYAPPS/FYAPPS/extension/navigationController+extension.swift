@@ -18,7 +18,7 @@ extension UINavigationController {
         }
         // 设置导航栏标题文字颜色
         if titleTxtColor != nil {
-            self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: titleTxtColor!]
+            self.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: titleTxtColor!]
         }
         // 设置导航栏背景颜色
         if titleBackColor != nil {

@@ -8,9 +8,7 @@ extension UIImageView {
     /// - Parameter imageName: 图片名
     convenience init(imageName: String) {
         self.init()
-        
-        let image = UIImage(named: imageName)
-        self.image = image
+        self.image = UIImage(named: imageName)
     }
     
     func fy_setImage(_ urlString: String, _ placeholder: String? = nil) {

@@ -1,3 +1,11 @@
+//
+//  WXSTransitionManager+TypeTool.m
+//  WXSTransition
+//
+//  Created by AlanWang on 16/9/20.
+//  Copyright © 2016年 王小树. All rights reserved.
+//
+
 #import "WXSTransitionManager+TypeTool.h"
 
 @implementation WXSTransitionManager (TypeTool)

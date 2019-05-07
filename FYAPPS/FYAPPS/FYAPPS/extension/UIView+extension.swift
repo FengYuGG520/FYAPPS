@@ -21,7 +21,7 @@ extension UIView {
     }
     
     class func fy_viewXibName(_ xibName: String) -> UIView! {
-        return UINib(nibName: xibName, bundle: nil).instantiate(withOwner: nil, options: nil).first as! UIView
+        return UINib(nibName: xibName, bundle: nil).instantiate(withOwner: nil, options: nil).first as? UIView
     }
     
     func fy_opacity(opacity: CGFloat) {

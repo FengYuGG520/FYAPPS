@@ -18,7 +18,7 @@ class FYTextBtnCell: UITableViewCell {
     // 设置文字的大小
     var textFont: CGFloat = FYLen.inUI(14.0)
     // 设置视图缩进 上左下右
-    var viewEdgeInsets: UIEdgeInsets = UIEdgeInsetsMake(FYLen.inUI(20), FYLen.inUI(68), FYLen.inUI(20), FYLen.inUI(20))
+    var viewEdgeInsets: UIEdgeInsets = UIEdgeInsets(top: FYLen.inUI(20), left: FYLen.inUI(68), bottom: FYLen.inUI(20), right: FYLen.inUI(20))
     // 按钮的radius
     var btnRadius: CGFloat = FYLen.inUI(6)
     
@@ -103,7 +103,7 @@ class FYTextBtnCell: UITableViewCell {
         
     }
     
-    func click(btn: UIButton) {
+    @objc func click(btn: UIButton) {
         
         for btn in self.subviews {
             if btn.isMember(of: UIButton.self) {
@@ -123,7 +123,7 @@ class FYTextBtnCell: UITableViewCell {
         }
     }
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
     }
