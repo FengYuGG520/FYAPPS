@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 解决 iOS11 tableView 往下跑20pt AppDelegate 里使用
 + (void)tableViewContentInsetAdjustmentNever;
 
+// 根据视频url获取任一帧图片，并保存
++ (void)fy_saveImgToUrlStr:(NSString *)toUrlStr withVideo:(NSURL *)videoURL atTime:(NSTimeInterval)time;
+
 @end
 
 NS_ASSUME_NONNULL_END

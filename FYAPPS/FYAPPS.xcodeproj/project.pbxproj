@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049FE35C2296472B0030F271 /* FYPlayerLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3212296472B0030F271 /* FYPlayerLogManager.m */; };
+		049FE35D2296472B0030F271 /* FYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3222296472B0030F271 /* FYPlayerView.m */; };
+		049FE35E2296472B0030F271 /* FYKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3252296472B0030F271 /* FYKVOController.m */; };
+		049FE35F2296472B0030F271 /* FYReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3272296472B0030F271 /* FYReachabilityManager.m */; };
+		049FE3602296472B0030F271 /* FYPlayerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3282296472B0030F271 /* FYPlayerNotification.m */; };
+		049FE3612296472B0030F271 /* FYFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE32A2296472B0030F271 /* FYFloatView.m */; };
+		049FE3622296472B0030F271 /* FYPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE32B2296472B0030F271 /* FYPlayerController.m */; };
+		049FE3632296472B0030F271 /* FYPlayerGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE32C2296472B0030F271 /* FYPlayerGestureControl.m */; };
+		049FE3642296472B0030F271 /* UIScrollView+FYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3312296472B0030F271 /* UIScrollView+FYPlayer.m */; };
+		049FE3652296472B0030F271 /* UIViewController+FYPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3332296472B0030F271 /* UIViewController+FYPlayerRotation.m */; };
+		049FE3662296472B0030F271 /* FYOrientationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3372296472B0030F271 /* FYOrientationObserver.m */; };
+		049FE3672296472B0030F271 /* FYIJKPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE33B2296472B0030F271 /* FYIJKPlayerManager.m */; };
+		049FE3682296472B0030F271 /* FYAVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE33D2296472B0030F271 /* FYAVPlayerManager.m */; };
+		049FE3692296472B0030F271 /* UIImageView+FYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3432296472B0030F271 /* UIImageView+FYCache.m */; };
+		049FE36A2296472B0030F271 /* FYPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 049FE3452296472B0030F271 /* FYPlayer.bundle */; };
+		049FE36B2296472B0030F271 /* FYPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3462296472B0030F271 /* FYPortraitControlView.m */; };
+		049FE36C2296472B0030F271 /* FYSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE34C2296472B0030F271 /* FYSliderView.m */; };
+		049FE36D2296472B0030F271 /* FYPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE34D2296472B0030F271 /* FYPlayerControlView.m */; };
+		049FE36E2296472B0030F271 /* FYLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE34E2296472B0030F271 /* FYLoadingView.m */; };
+		049FE36F2296472B0030F271 /* FYSpeedLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE34F2296472B0030F271 /* FYSpeedLoadingView.m */; };
+		049FE3702296472B0030F271 /* FYSmallFloatControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3502296472B0030F271 /* FYSmallFloatControlView.m */; };
+		049FE3712296472B0030F271 /* UIView+FYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3522296472B0030F271 /* UIView+FYFrame.m */; };
+		049FE3722296472B0030F271 /* FYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3532296472B0030F271 /* FYUtilities.m */; };
+		049FE3732296472B0030F271 /* FYNetworkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3542296472B0030F271 /* FYNetworkSpeedMonitor.m */; };
+		049FE3742296472B0030F271 /* FYVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3552296472B0030F271 /* FYVolumeBrightnessView.m */; };
+		049FE3752296472B0030F271 /* FYLandScapeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE3582296472B0030F271 /* FYLandScapeControlView.m */; };
+		049FE3762296472B0030F271 /* KSMediaPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE35A2296472B0030F271 /* KSMediaPlayerManager.m */; };
 		04F04B0722813B6B000106B7 /* WXSTransitionManager+SpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F04AE522813B6B000106B7 /* WXSTransitionManager+SpreadAnimation.m */; };
 		04F04B0822813B6B000106B7 /* WXSTransitionManager+InsideThenPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F04AE822813B6B000106B7 /* WXSTransitionManager+InsideThenPushAnimation.m */; };
 		04F04B0922813B6B000106B7 /* WXSTransitionManager+BoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F04AE922813B6B000106B7 /* WXSTransitionManager+BoomAnimation.m */; };
@@ -101,6 +128,61 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049FE3212296472B0030F271 /* FYPlayerLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerLogManager.m; sourceTree = "<group>"; };
+		049FE3222296472B0030F271 /* FYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerView.m; sourceTree = "<group>"; };
+		049FE3232296472B0030F271 /* FYPlayerGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerGestureControl.h; sourceTree = "<group>"; };
+		049FE3242296472B0030F271 /* UIScrollView+FYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FYPlayer.h"; sourceTree = "<group>"; };
+		049FE3252296472B0030F271 /* FYKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYKVOController.m; sourceTree = "<group>"; };
+		049FE3262296472B0030F271 /* FYPlayerMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerMediaControl.h; sourceTree = "<group>"; };
+		049FE3272296472B0030F271 /* FYReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYReachabilityManager.m; sourceTree = "<group>"; };
+		049FE3282296472B0030F271 /* FYPlayerNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerNotification.m; sourceTree = "<group>"; };
+		049FE3292296472B0030F271 /* FYOrientationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYOrientationObserver.h; sourceTree = "<group>"; };
+		049FE32A2296472B0030F271 /* FYFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFloatView.m; sourceTree = "<group>"; };
+		049FE32B2296472B0030F271 /* FYPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerController.m; sourceTree = "<group>"; };
+		049FE32C2296472B0030F271 /* FYPlayerGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerGestureControl.m; sourceTree = "<group>"; };
+		049FE32D2296472B0030F271 /* FYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerView.h; sourceTree = "<group>"; };
+		049FE32E2296472B0030F271 /* FYPlayerLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerLogManager.h; sourceTree = "<group>"; };
+		049FE32F2296472B0030F271 /* FYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayer.h; sourceTree = "<group>"; };
+		049FE3302296472B0030F271 /* FYKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYKVOController.h; sourceTree = "<group>"; };
+		049FE3312296472B0030F271 /* UIScrollView+FYPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FYPlayer.m"; sourceTree = "<group>"; };
+		049FE3322296472B0030F271 /* FYReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYReachabilityManager.h; sourceTree = "<group>"; };
+		049FE3332296472B0030F271 /* UIViewController+FYPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYPlayerRotation.m"; sourceTree = "<group>"; };
+		049FE3342296472B0030F271 /* FYPlayerMediaPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerMediaPlayback.h; sourceTree = "<group>"; };
+		049FE3352296472B0030F271 /* FYPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerController.h; sourceTree = "<group>"; };
+		049FE3362296472B0030F271 /* FYFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFloatView.h; sourceTree = "<group>"; };
+		049FE3372296472B0030F271 /* FYOrientationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYOrientationObserver.m; sourceTree = "<group>"; };
+		049FE3382296472B0030F271 /* FYPlayerNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerNotification.h; sourceTree = "<group>"; };
+		049FE33A2296472B0030F271 /* FYIJKPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYIJKPlayerManager.h; sourceTree = "<group>"; };
+		049FE33B2296472B0030F271 /* FYIJKPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYIJKPlayerManager.m; sourceTree = "<group>"; };
+		049FE33D2296472B0030F271 /* FYAVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAVPlayerManager.m; sourceTree = "<group>"; };
+		049FE33E2296472B0030F271 /* FYAVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAVPlayerManager.h; sourceTree = "<group>"; };
+		049FE3402296472B0030F271 /* FYSpeedLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSpeedLoadingView.h; sourceTree = "<group>"; };
+		049FE3412296472B0030F271 /* FYLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLoadingView.h; sourceTree = "<group>"; };
+		049FE3422296472B0030F271 /* FYPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlayerControlView.h; sourceTree = "<group>"; };
+		049FE3432296472B0030F271 /* UIImageView+FYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FYCache.m"; sourceTree = "<group>"; };
+		049FE3442296472B0030F271 /* FYSmallFloatControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSmallFloatControlView.h; sourceTree = "<group>"; };
+		049FE3452296472B0030F271 /* FYPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FYPlayer.bundle; sourceTree = "<group>"; };
+		049FE3462296472B0030F271 /* FYPortraitControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPortraitControlView.m; sourceTree = "<group>"; };
+		049FE3472296472B0030F271 /* FYVolumeBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYVolumeBrightnessView.h; sourceTree = "<group>"; };
+		049FE3482296472B0030F271 /* FYNetworkSpeedMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		049FE3492296472B0030F271 /* FYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYUtilities.h; sourceTree = "<group>"; };
+		049FE34A2296472B0030F271 /* UIView+FYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYFrame.h"; sourceTree = "<group>"; };
+		049FE34B2296472B0030F271 /* FYLandScapeControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLandScapeControlView.h; sourceTree = "<group>"; };
+		049FE34C2296472B0030F271 /* FYSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSliderView.m; sourceTree = "<group>"; };
+		049FE34D2296472B0030F271 /* FYPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlayerControlView.m; sourceTree = "<group>"; };
+		049FE34E2296472B0030F271 /* FYLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLoadingView.m; sourceTree = "<group>"; };
+		049FE34F2296472B0030F271 /* FYSpeedLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSpeedLoadingView.m; sourceTree = "<group>"; };
+		049FE3502296472B0030F271 /* FYSmallFloatControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSmallFloatControlView.m; sourceTree = "<group>"; };
+		049FE3512296472B0030F271 /* UIImageView+FYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FYCache.h"; sourceTree = "<group>"; };
+		049FE3522296472B0030F271 /* UIView+FYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYFrame.m"; sourceTree = "<group>"; };
+		049FE3532296472B0030F271 /* FYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYUtilities.m; sourceTree = "<group>"; };
+		049FE3542296472B0030F271 /* FYNetworkSpeedMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNetworkSpeedMonitor.m; sourceTree = "<group>"; };
+		049FE3552296472B0030F271 /* FYVolumeBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYVolumeBrightnessView.m; sourceTree = "<group>"; };
+		049FE3562296472B0030F271 /* FYPortraitControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPortraitControlView.h; sourceTree = "<group>"; };
+		049FE3572296472B0030F271 /* FYSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSliderView.h; sourceTree = "<group>"; };
+		049FE3582296472B0030F271 /* FYLandScapeControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLandScapeControlView.m; sourceTree = "<group>"; };
+		049FE35A2296472B0030F271 /* KSMediaPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMediaPlayerManager.m; sourceTree = "<group>"; };
+		049FE35B2296472B0030F271 /* KSMediaPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMediaPlayerManager.h; sourceTree = "<group>"; };
 		04F04AE422813B6B000106B7 /* WXSTransitionManager+CoverAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+CoverAnimation.h"; sourceTree = "<group>"; };
 		04F04AE522813B6B000106B7 /* WXSTransitionManager+SpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXSTransitionManager+SpreadAnimation.m"; sourceTree = "<group>"; };
 		04F04AE622813B6B000106B7 /* WXSTransitionManager+TypeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSTransitionManager+TypeTool.h"; sourceTree = "<group>"; };
@@ -257,6 +339,108 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		049FE31F2296472B0030F271 /* FYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				049FE3202296472B0030F271 /* Core */,
+				049FE3392296472B0030F271 /* ijkplayer */,
+				049FE33C2296472B0030F271 /* AVPlayer */,
+				049FE33F2296472B0030F271 /* ControlView */,
+				049FE3592296472B0030F271 /* KSYMediaPlayer */,
+			);
+			path = FYPlayer;
+			sourceTree = "<group>";
+		};
+		049FE3202296472B0030F271 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				049FE32F2296472B0030F271 /* FYPlayer.h */,
+				049FE3262296472B0030F271 /* FYPlayerMediaControl.h */,
+				049FE3342296472B0030F271 /* FYPlayerMediaPlayback.h */,
+				049FE3332296472B0030F271 /* UIViewController+FYPlayerRotation.m */,
+				049FE32E2296472B0030F271 /* FYPlayerLogManager.h */,
+				049FE3212296472B0030F271 /* FYPlayerLogManager.m */,
+				049FE32D2296472B0030F271 /* FYPlayerView.h */,
+				049FE3222296472B0030F271 /* FYPlayerView.m */,
+				049FE3232296472B0030F271 /* FYPlayerGestureControl.h */,
+				049FE32C2296472B0030F271 /* FYPlayerGestureControl.m */,
+				049FE3242296472B0030F271 /* UIScrollView+FYPlayer.h */,
+				049FE3312296472B0030F271 /* UIScrollView+FYPlayer.m */,
+				049FE3302296472B0030F271 /* FYKVOController.h */,
+				049FE3252296472B0030F271 /* FYKVOController.m */,
+				049FE3322296472B0030F271 /* FYReachabilityManager.h */,
+				049FE3272296472B0030F271 /* FYReachabilityManager.m */,
+				049FE3382296472B0030F271 /* FYPlayerNotification.h */,
+				049FE3282296472B0030F271 /* FYPlayerNotification.m */,
+				049FE3372296472B0030F271 /* FYOrientationObserver.m */,
+				049FE3292296472B0030F271 /* FYOrientationObserver.h */,
+				049FE3362296472B0030F271 /* FYFloatView.h */,
+				049FE32A2296472B0030F271 /* FYFloatView.m */,
+				049FE3352296472B0030F271 /* FYPlayerController.h */,
+				049FE32B2296472B0030F271 /* FYPlayerController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		049FE3392296472B0030F271 /* ijkplayer */ = {
+			isa = PBXGroup;
+			children = (
+				049FE33A2296472B0030F271 /* FYIJKPlayerManager.h */,
+				049FE33B2296472B0030F271 /* FYIJKPlayerManager.m */,
+			);
+			path = ijkplayer;
+			sourceTree = "<group>";
+		};
+		049FE33C2296472B0030F271 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				049FE33E2296472B0030F271 /* FYAVPlayerManager.h */,
+				049FE33D2296472B0030F271 /* FYAVPlayerManager.m */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		049FE33F2296472B0030F271 /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				049FE3452296472B0030F271 /* FYPlayer.bundle */,
+				049FE3402296472B0030F271 /* FYSpeedLoadingView.h */,
+				049FE34F2296472B0030F271 /* FYSpeedLoadingView.m */,
+				049FE3412296472B0030F271 /* FYLoadingView.h */,
+				049FE34E2296472B0030F271 /* FYLoadingView.m */,
+				049FE3422296472B0030F271 /* FYPlayerControlView.h */,
+				049FE34D2296472B0030F271 /* FYPlayerControlView.m */,
+				049FE3512296472B0030F271 /* UIImageView+FYCache.h */,
+				049FE3432296472B0030F271 /* UIImageView+FYCache.m */,
+				049FE3442296472B0030F271 /* FYSmallFloatControlView.h */,
+				049FE3502296472B0030F271 /* FYSmallFloatControlView.m */,
+				049FE3562296472B0030F271 /* FYPortraitControlView.h */,
+				049FE3462296472B0030F271 /* FYPortraitControlView.m */,
+				049FE3472296472B0030F271 /* FYVolumeBrightnessView.h */,
+				049FE3552296472B0030F271 /* FYVolumeBrightnessView.m */,
+				049FE3482296472B0030F271 /* FYNetworkSpeedMonitor.h */,
+				049FE3542296472B0030F271 /* FYNetworkSpeedMonitor.m */,
+				049FE3492296472B0030F271 /* FYUtilities.h */,
+				049FE3532296472B0030F271 /* FYUtilities.m */,
+				049FE34A2296472B0030F271 /* UIView+FYFrame.h */,
+				049FE3522296472B0030F271 /* UIView+FYFrame.m */,
+				049FE34B2296472B0030F271 /* FYLandScapeControlView.h */,
+				049FE3582296472B0030F271 /* FYLandScapeControlView.m */,
+				049FE3572296472B0030F271 /* FYSliderView.h */,
+				049FE34C2296472B0030F271 /* FYSliderView.m */,
+			);
+			path = ControlView;
+			sourceTree = "<group>";
+		};
+		049FE3592296472B0030F271 /* KSYMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				049FE35B2296472B0030F271 /* KSMediaPlayerManager.h */,
+				049FE35A2296472B0030F271 /* KSMediaPlayerManager.m */,
+			);
+			path = KSYMediaPlayer;
+			sourceTree = "<group>";
+		};
 		04F04AE322813B6B000106B7 /* WXSTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +553,7 @@
 		144D887F1F6BF24B00313DBC /* OC */ = {
 			isa = PBXGroup;
 			children = (
+				049FE31F2296472B0030F271 /* FYPlayer */,
 				04F04AE322813B6B000106B7 /* WXSTransition */,
 				1BDA17FF1F7C8F2F0053DF6A /* TQStarRating */,
 				1BDA17E21F7C86040053DF6A /* QRCode */,
@@ -567,7 +752,7 @@
 				TargetAttributes = {
 					144D88631F6BE3E300313DBC = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MZE84VL8YP;
+						DevelopmentTeam = TKQK8ZD4H3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -606,6 +791,7 @@
 				1BDA180D1F7CEB680053DF6A /* FYScanner.bundle in Resources */,
 				1BDA18071F7C8F2F0053DF6A /* backgroundStar.png in Resources */,
 				144D886D1F6BE3E400313DBC /* Main.storyboard in Resources */,
+				049FE36A2296472B0030F271 /* FYPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,27 +860,42 @@
 				1BB8D4171FCF98FE0072A4E9 /* UIColor+FYColor.m in Sources */,
 				1B80AF8F1F6D1016007526D5 /* UITextField+extension.swift in Sources */,
 				144D88BC1F6C321800313DBC /* Date+extension.swift in Sources */,
+				049FE3742296472B0030F271 /* FYVolumeBrightnessView.m in Sources */,
 				04F04B2822815C73000106B7 /* NSString+FYHeight.m in Sources */,
+				049FE36F2296472B0030F271 /* FYSpeedLoadingView.m in Sources */,
+				049FE3602296472B0030F271 /* FYPlayerNotification.m in Sources */,
 				144D888E1F6C026E00313DBC /* FYRefresh.swift in Sources */,
+				049FE36B2296472B0030F271 /* FYPortraitControlView.m in Sources */,
 				144D88701F6BE3E400313DBC /* FYAPPS.xcdatamodeld in Sources */,
 				1B80AF571F6C47D0007526D5 /* UIResponder+extension.swift in Sources */,
+				049FE36E2296472B0030F271 /* FYLoadingView.m in Sources */,
+				049FE3612296472B0030F271 /* FYFloatView.m in Sources */,
 				1B80AF821F6CDE2D007526D5 /* String+extension.swift in Sources */,
+				049FE35C2296472B0030F271 /* FYPlayerLogManager.m in Sources */,
+				049FE35E2296472B0030F271 /* FYKVOController.m in Sources */,
 				1BDA17F61F7C86040053DF6A /* FYScannerViewController.m in Sources */,
 				1B80AF801F6CDB3A007526D5 /* scrollView+extension.swift in Sources */,
 				1BB8D4051FCF94790072A4E9 /* FYPickerVC.swift in Sources */,
 				04F04B1222813B6B000106B7 /* WXSTransitionManager+CoverAnimation.m in Sources */,
+				049FE3682296472B0030F271 /* FYAVPlayerManager.m in Sources */,
 				1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */,
 				1BDA17F31F7C86040053DF6A /* FYScannerBorder.m in Sources */,
 				04F04B1422813B6B000106B7 /* WXSTransitionManager.m in Sources */,
+				049FE3672296472B0030F271 /* FYIJKPlayerManager.m in Sources */,
 				04F04B0C22813B6B000106B7 /* WXSTransitionManager+BrickAnimation.m in Sources */,
 				144D88AC1F6C31AC00313DBC /* FYDevice.swift in Sources */,
+				049FE36D2296472B0030F271 /* FYPlayerControlView.m in Sources */,
+				049FE3622296472B0030F271 /* FYPlayerController.m in Sources */,
 				04F04B0E22813B6B000106B7 /* UINavigationController+WXSTransition.m in Sources */,
 				04F04B0A22813B6B000106B7 /* UIViewController+WXSTransitionProperty.m in Sources */,
 				144D88891F6BF7A500313DBC /* FYNetwork.swift in Sources */,
+				049FE3642296472B0030F271 /* UIScrollView+FYPlayer.m in Sources */,
 				04F04B0D22813B6B000106B7 /* WXSTransitionManager+FlipAnimation.m in Sources */,
 				144D88C21F6C321800313DBC /* UITableView+extension.swift in Sources */,
 				1B80AF7E1F6CD7F2007526D5 /* navigationController+extension.swift in Sources */,
 				04F04B1622813B6B000106B7 /* WXSTransitionManager+ViewMoveAnimation.m in Sources */,
+				049FE3762296472B0030F271 /* KSMediaPlayerManager.m in Sources */,
+				049FE3702296472B0030F271 /* FYSmallFloatControlView.m in Sources */,
 				04F04B1722813B6B000106B7 /* WXSTransitionProperty.m in Sources */,
 				1BB8D3F41FCF934F0072A4E9 /* FYViewController.swift in Sources */,
 				1BB8D40F1FCF94790072A4E9 /* UIViewController+FYPickerVC.swift in Sources */,
@@ -710,39 +911,50 @@
 				144D88C41F6C321800313DBC /* UIViewController+extension.swift in Sources */,
 				04F04B1522813B6B000106B7 /* WXSTransitionManager+SystermAnimation.m in Sources */,
 				1BDA17F01F7C86040053DF6A /* FYScanerCardViewController.m in Sources */,
+				049FE36C2296472B0030F271 /* FYSliderView.m in Sources */,
 				144D88BF1F6C321800313DBC /* Timer+extension.swift in Sources */,
 				1BDA17F51F7C86040053DF6A /* FYScannerMaskView.m in Sources */,
 				144D88871F6BF6FB00313DBC /* FYLen.swift in Sources */,
 				1B80AF7B1F6CD4D9007526D5 /* FYFPS.m in Sources */,
 				1BDA17F41F7C86040053DF6A /* FYScannerController.m in Sources */,
+				049FE3632296472B0030F271 /* FYPlayerGestureControl.m in Sources */,
 				1B80AF751F6CD45F007526D5 /* NSString+hash.m in Sources */,
 				1BB8D4081FCF94790072A4E9 /* FYShowOKVC2.swift in Sources */,
 				1BB8D4031FCF94790072A4E9 /* FYCollectionViewFlowLayout.swift in Sources */,
 				1B80AF8B1F6CE709007526D5 /* UIImage+extension.swift in Sources */,
+				049FE3692296472B0030F271 /* UIImageView+FYCache.m in Sources */,
 				144D88CE1F6C381200313DBC /* FYGCD.m in Sources */,
 				144D886A1F6BE3E300313DBC /* ViewController.swift in Sources */,
 				144D88841F6BF58200313DBC /* Common.swift in Sources */,
 				1BDA180B1F7C8F2F0053DF6A /* TQStarRatingView.m in Sources */,
+				049FE3662296472B0030F271 /* FYOrientationObserver.m in Sources */,
 				1B80AF721F6CCEC2007526D5 /* UICollectionView+extension.swift in Sources */,
 				1BFB1AE41FDA92AF002BF9B9 /* FYWavesView.m in Sources */,
+				049FE3652296472B0030F271 /* UIViewController+FYPlayerRotation.m in Sources */,
 				1BB8D40A1FCF94790072A4E9 /* FYShowSB.swift in Sources */,
+				049FE3712296472B0030F271 /* UIView+FYFrame.m in Sources */,
 				1BE5AD081F74A329001B5E64 /* DistanceStarView.m in Sources */,
 				144D88A01F6C1A0200313DBC /* UIImageView+extension.swift in Sources */,
 				1BB8D4061FCF94790072A4E9 /* FYPickerVC1.swift in Sources */,
 				144D88BE1F6C321800313DBC /* notification+extension.swift in Sources */,
 				144D88681F6BE3E300313DBC /* AppDelegate.swift in Sources */,
 				1BB8D40B1FCF94790072A4E9 /* FYStartView.swift in Sources */,
+				049FE3752296472B0030F271 /* FYLandScapeControlView.m in Sources */,
 				1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */,
 				1BB8D40D1FCF94790072A4E9 /* Item.swift in Sources */,
 				1B00B74C1F7329130072E674 /* FYTextBtnCell.swift in Sources */,
 				1BB8D4111FCF96E90072A4E9 /* FYAlert.swift in Sources */,
 				04F04B0F22813B6B000106B7 /* UIViewController+WXSTransition.m in Sources */,
 				04F04B0722813B6B000106B7 /* WXSTransitionManager+SpreadAnimation.m in Sources */,
+				049FE35F2296472B0030F271 /* FYReachabilityManager.m in Sources */,
 				04F04B1122813B6B000106B7 /* WXSTransitionManager+TypeTool.m in Sources */,
 				1B80AF891F6CE5FF007526D5 /* UIAlertController+FYAlertController.m in Sources */,
 				1B80AF7C1F6CD4D9007526D5 /* UIWindow+FPS.m in Sources */,
+				049FE3732296472B0030F271 /* FYNetworkSpeedMonitor.m in Sources */,
+				049FE3722296472B0030F271 /* FYUtilities.m in Sources */,
 				04F04B2B228168E8000106B7 /* FYOCTool.m in Sources */,
 				04F04B2F228169D5000106B7 /* FYFile.swift in Sources */,
+				049FE35D2296472B0030F271 /* FYPlayerView.m in Sources */,
 				1BC8F46E1F92520600B7903B /* Font+extension.swift in Sources */,
 				1BB8D40C1FCF94790072A4E9 /* FYTableViewCell.swift in Sources */,
 				1B80AF8D1F6D0FB1007526D5 /* UIScreen+extension.swift in Sources */,
@@ -891,7 +1103,7 @@
 			baseConfigurationReference = 628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MZE84VL8YP;
+				DEVELOPMENT_TEAM = TKQK8ZD4H3;
 				INFOPLIST_FILE = FYAPPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -908,7 +1120,7 @@
 			baseConfigurationReference = F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MZE84VL8YP;
+				DEVELOPMENT_TEAM = TKQK8ZD4H3;
 				INFOPLIST_FILE = FYAPPS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

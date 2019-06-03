@@ -12,7 +12,7 @@ extension UITableView {
     }
     
     func fy_cutSeparator() {
-        self.separatorStyle = .none
+        self.separatorStyle = .none // 去掉tableViewCell的分割线
     }
     
     func fy_reload(row: Int, section: Int, animation: UITableView.RowAnimation) {
