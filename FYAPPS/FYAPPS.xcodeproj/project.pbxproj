@@ -125,6 +125,7 @@
 		1BE5AD0B1F74A37A001B5E64 /* FYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0A1F74A37A001B5E64 /* FYSize.m */; };
 		1BE5AD0E1F74A3B7001B5E64 /* EwenCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5AD0D1F74A3B7001B5E64 /* EwenCopyLabel.m */; };
 		1BFB1AE41FDA92AF002BF9B9 /* FYWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB1AE31FDA92AF002BF9B9 /* FYWavesView.m */; };
+		A997A87422DF126D007E52E1 /* radar_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A997A87322DF126D007E52E1 /* radar_6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,6 +317,7 @@
 		1BFB1AE31FDA92AF002BF9B9 /* FYWavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWavesView.m; sourceTree = "<group>"; };
 		628F35180C8B4FB922D754E5 /* Pods-FYAPPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.debug.xcconfig"; sourceTree = "<group>"; };
 		85DA13DA52D1406B694A20BD /* Pods_FYAPPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAPPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A997A87322DF126D007E52E1 /* radar_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar_6.png; sourceTree = "<group>"; };
 		F6F71154783C218EED5567E5 /* Pods-FYAPPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAPPS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAPPS/Pods-FYAPPS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -513,6 +515,7 @@
 		144D88661F6BE3E300313DBC /* FYAPPS */ = {
 			isa = PBXGroup;
 			children = (
+				A992C64F22DDD45F005E8112 /* images */,
 				144D887C1F6BF19700313DBC /* FYAPPS */,
 				144D88671F6BE3E300313DBC /* AppDelegate.swift */,
 				144D88691F6BE3E300313DBC /* ViewController.swift */,
@@ -718,6 +721,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A992C64F22DDD45F005E8112 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A997A87322DF126D007E52E1 /* radar_6.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -762,6 +773,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -783,6 +795,7 @@
 				144D88751F6BE3E400313DBC /* LaunchScreen.storyboard in Resources */,
 				1BDA18091F7C8F2F0053DF6A /* foregroundStar.png in Resources */,
 				1BB8D40E1FCF94790072A4E9 /* region.json in Resources */,
+				A997A87422DF126D007E52E1 /* radar_6.png in Resources */,
 				144D88721F6BE3E400313DBC /* Assets.xcassets in Resources */,
 				1BB8D4091FCF94790072A4E9 /* FYShowSB.storyboard in Resources */,
 				1BB8D4041FCF94790072A4E9 /* FYPickerVC.storyboard in Resources */,

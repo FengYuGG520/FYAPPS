@@ -11,24 +11,29 @@ import AVKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var baseView: UIView!
+    
     // 时间过的真快2018.06.21
     // 第二次来记录2019.05.07
+    // 来写Demo 2019.07.16
     override func viewDidLoad() {
         super.viewDidLoad()
-//        URL    http://activity.gyyx.cn/wdrank/dataList 道行
-//        URL    http://activity.gyyx.cn/wdrank/dataList 物伤
-//        print("type=role&distName=&rankType=%E7%89%A9%E4%BC%A4&levelStr=&serverId=0&r=0.1522964633060243".removingPercentEncoding ?? "")
-//        hechengyinping()
         
-//        http://activity.gyyx.cn/wdrank/dataList
-        /*
-         type role个人 pet宠物
-         distName 区服名字
-         rankType (道行、物伤、法伤、速度、防御)
-         levelStr (等级区间 160-169)
-         */
+        self.view.layoutIfNeeded()
         
-        getVideoPreViewImage()
+        let pie_Pic = UIImageView.init(frame: CGRect(x: 0, y: -(self.baseView.bounds.height / 2), width: self.baseView.bounds.width, height: self.baseView.bounds.width))
+        pie_Pic.layer.anchorPoint = CGPoint.init(x: 0, y: 0)
+        pie_Pic.image = UIImage.init(named: "radar_6")
+        self.baseView.addSubview(pie_Pic)
+        
+        let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
+        rotationAnimation.toValue = Double.pi * 2
+        rotationAnimation.duration = 1.0
+        rotationAnimation.repeatCount = HUGE
+        pie_Pic.layer.add(rotationAnimation, forKey: "rotationAnimation")
+        
+        // 有空了再写框架
+//        getVideoPreViewImage()
     }
     
     /*
